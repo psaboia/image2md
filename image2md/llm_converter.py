@@ -206,7 +206,8 @@ class LLMConverter(Image2MarkdownConverter):
             "Convert this image to well-formatted markdown. Maintain the structure "
             "and layout of the document, including proper formatting for headings, "
             "lists, tables, and other elements. Output only the markdown content "
-            "without any explanations."
+            "without any explanations. Do NOT wrap your response in markdown code blocks (```). "
+            "Just provide the clean markdown content directly without any surrounding backticks."
         )
         prompt = custom_prompt or default_prompt
         
@@ -248,6 +249,12 @@ class LLMConverter(Image2MarkdownConverter):
                 
                 # Extract the markdown content from the response
                 markdown_content = response.choices[0].message.content
+                
+                # Post-process to remove triple backticks wrapping the markdown if present
+                if markdown_content.startswith("```markdown\n") and markdown_content.endswith("\n```"):
+                    markdown_content = markdown_content[12:-4]  # Remove ```markdown and ```
+                elif markdown_content.startswith("```\n") and markdown_content.endswith("\n```"):
+                    markdown_content = markdown_content[4:-4]  # Remove ``` and ```
                 
                 # Save the full response with provenance as JSON if requested
                 if save_json and json_output_path:
