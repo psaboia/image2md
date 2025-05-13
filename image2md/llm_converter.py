@@ -50,6 +50,7 @@ class LLMConverter(Image2MarkdownConverter):
         model: str = "gpt-4o",
         provider: str = "openai",
         max_tokens: int = 4000,
+        max_completion_tokens: Optional[int] = None,
         temperature: float = 0.2,
         **llm_options
     ):
@@ -60,7 +61,8 @@ class LLMConverter(Image2MarkdownConverter):
             api_key: API key for the LLM provider. If None, will use environment variables.
             model: Model name to use (e.g., "gpt-4o", "claude-3-opus")
             provider: LLM provider, currently supports "openai"
-            max_tokens: Maximum tokens for the response
+            max_tokens: Maximum tokens for the response (used for older models)
+            max_completion_tokens: Maximum completion tokens (used for newer models like o4-)
             temperature: Temperature for response generation
             **llm_options: Additional LLM API options
         
@@ -71,7 +73,17 @@ class LLMConverter(Image2MarkdownConverter):
         self.provider = provider.lower()
         self.model = model
         self.max_tokens = max_tokens
-        self.temperature = temperature
+        self.max_completion_tokens = max_completion_tokens
+        
+        # Special handling for o4- models which only support temperature=1.0
+        if provider.lower() == "openai" and isinstance(model, str) and model.startswith("o4-"):
+            # Force temperature to 1.0 for o4- models
+            self.temperature = 1.0
+            if temperature != 1.0:
+                print(f"Warning: Model {model} only supports temperature=1.0. Overriding provided value.")
+        else:
+            self.temperature = temperature
+            
         self.llm_options = llm_options
         
         # OpenAI provider configuration
@@ -198,77 +210,99 @@ class LLMConverter(Image2MarkdownConverter):
         )
         prompt = custom_prompt or default_prompt
         
-        # Combined parameters
-        params = {
-            "model": self.model,
-            "max_tokens": self.max_tokens,
-            "temperature": self.temperature,
-            **kwargs
-        }
-        
-        # Create provenance information
-        provenance = self._create_provenance(params, prompt)
-        
-        markdown_content = ""
-        
-        # Call appropriate LLM API based on provider
+        # Process the image with OpenAI API
         if self.provider == "openai":
-            # Create API parameters
-            api_params = {
-                "model": self.model,
-                "messages": [
-                    {"role": "system", "content": prompt},
-                    {
-                        "role": "user",
-                        "content": [
-                            {"type": "text", "text": "Convert this image to markdown:"},
-                            {
-                                "type": "image_url",
-                                "image_url": {
-                                    "url": f"data:image/jpeg;base64,{base64_image}",
-                                    "detail": "high"
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "max_tokens": self.max_tokens,
-                "temperature": self.temperature,
-            }
-            
-            # Add any additional parameters from kwargs
-            # Filter valid parameters to avoid API errors
-            valid_openai_params = [
-                "frequency_penalty", "logit_bias", "logprobs", "top_logprobs",
-                "presence_penalty", "response_format", "seed", "stop", "stream",
-                "tools", "tool_choice", "top_p", "user"
+            # Prepare API parameters
+            messages = [
+                {"role": "system", "content": [
+                    {"type": "text", "text": "You are a document layout specialist that converts images to markdown. Preserve the document structure and layout."}
+                ]},
+                {"role": "user", "content": [
+                    {"type": "text", "text": prompt},
+                    {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
+                ]}
             ]
             
-            for k, v in kwargs.items():
-                if k in valid_openai_params:
-                    api_params[k] = v
-            
-            # Make the API call
-            response = self.client.chat.completions.create(**api_params)  # type: ignore
-            
-            # Extract markdown from response
-            markdown_content = response.choices[0].message.content
-        
-        # Save JSON response with provenance if requested
-        if save_json:
-            if json_output_path is None:
-                json_output_path = image_path.with_suffix('.json')
-            
-            # Create JSON response with markdown and provenance
-            json_result = {
-                "markdown": markdown_content,
-                "provenance": provenance.as_dict(),
-                "timestamp": datetime.datetime.now().isoformat(),
-                "image_path": str(image_path),
-                "conversion_type": "llm",
+            # Prepare API call parameters based on model
+            api_params = {
+                "model": self.model,
+                "messages": messages,
             }
             
-            with open(json_output_path, 'w', encoding='utf-8') as f:
-                json.dump(json_result, f, indent=2, ensure_ascii=False)
+            # Choose the right token parameter based on model and handle special cases
+            if isinstance(self.model, str) and self.model.startswith("o4-"):
+                # Newer models use max_completion_tokens and only support temperature=1.0
+                api_params["max_completion_tokens"] = kwargs.get("max_completion_tokens", 
+                                                               self.max_completion_tokens or self.max_tokens)
+                # Only add temperature if it's 1.0 (the only supported value)
+                if kwargs.get("temperature", self.temperature) == 1.0:
+                    api_params["temperature"] = 1.0
+            else:
+                # Older models use max_tokens and support custom temperature
+                api_params["max_tokens"] = kwargs.get("max_tokens", self.max_tokens)
+                api_params["temperature"] = kwargs.get("temperature", self.temperature)
+                
+            try:
+                # Make the API call
+                response = self.client.chat.completions.create(**api_params)
+                
+                # Extract the markdown content from the response
+                markdown_content = response.choices[0].message.content
+                
+                # Save the full response with provenance as JSON if requested
+                if save_json and json_output_path:
+                    # Create provenance information
+                    provenance = self._create_provenance(api_params, prompt)
+                    
+                    # Prepare data for JSON serialization
+                    json_data = {
+                        "provider": self.provider,
+                        "model": self.model,
+                        "provenance": provenance.as_dict(),
+                        "response": response.model_dump() if hasattr(response, 'model_dump') else response.dict(),
+                        "image_path": str(image_path),
+                        "markdown_content": markdown_content
+                    }
+                    
+                    # Save to JSON file
+                    with open(json_output_path, "w", encoding="utf-8") as f:
+                        json.dump(json_data, f, indent=2, ensure_ascii=False)
+                
+                return markdown_content
+            
+            except Exception as e:
+                error_message = str(e)
+                # Check if this is an OpenAI error with a response
+                if hasattr(e, "response") and e.response:
+                    error_message += f" - {e.response.json()}"
+                raise Exception(f"Error code: {getattr(e, 'status_code', 400)} - {error_message}")
+            
+        # Add support for other providers here
+        else:
+            raise ValueError(f"Unsupported LLM provider: {self.provider}")
+    
+    def save_markdown(self, image_path: Path, output_path: Optional[Path] = None, 
+                     **kwargs) -> Path:
+        """
+        Convert an image to markdown and save it to a file.
         
-        return markdown_content 
+        Args:
+            image_path: Path to the image file
+            output_path: Path to save the markdown file (default: image_path with .md extension)
+            **kwargs: Additional parameters to pass to convert method
+            
+        Returns:
+            Path: Path to the saved markdown file
+        """
+        # Default output path if not provided
+        if output_path is None:
+            output_path = image_path.with_suffix(".md")
+            
+        # Convert image to markdown
+        markdown_content = self.convert(image_path, **kwargs)
+        
+        # Save markdown to file
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(markdown_content)
+            
+        return output_path 
