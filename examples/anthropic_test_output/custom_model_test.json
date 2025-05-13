@@ -1,7 +1,7 @@
 {
-  "markdown": "Here is the image converted to very brief markdown:\n\n```\nJun 4 '97  02:38pm LOEWS CORP LEGAL  F.1/6\n\nLOEWS\n667 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-9220 Fax (212) 935-6801\n\nBARRY HIRSCH\nSenior Vice President\nSecretary & General Counsel\n\nFAX\nCONFIDENTIAL\n\nDATE: June 4, 1997\nTO: Dr. Spears/A.J. Stevens/R. Milstein\nFROM: Barry Hirsch\n\nTOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6\nIF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL\nCAROL DOKTORSKI AT (212) 545-9234.\n\nOUR FAX NUMBER IS (212) 935-6801.\n```",
+  "markdown": "Here is the image converted to very brief markdown:\n\n```\nJun 4 '97 02:38pm Loews Corp Legal F.1/6\n\nLOEWS\n667 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-9220 Fax (212) 935-6801\n\nBARRY HIRSCH\nSenior Vice President\nSecretary & General Counsel\n\nFAX\nCONFIDENTIAL\n\nDATE: June 4, 1997\nTO: Dr. Spears/A.J. Stevens/R. Milstein\nFROM: Barry Hirsch\n\nTOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6\nIF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL\nCAROL DOKTORSKI AT (212) 545-9234.\n\nOUR FAX NUMBER IS (212) 935-6801.\n```",
   "provenance": {
-    "timestamp": "2025-05-13T09:55:32.676504",
+    "timestamp": "2025-05-13T10:47:48.876536",
     "model": "claude-3-haiku-20240307",
     "provider": "Anthropic",
     "system_info": {
@@ -17,7 +17,7 @@
       "prompt": "Convert this to very brief markdown."
     }
   },
-  "timestamp": "2025-05-13T09:55:32.676504",
+  "timestamp": "2025-05-13T10:47:48.876536",
   "image_path": "/mnt/slow_data/TAI/Users/pmoreira/image2md/examples/83635935.png",
   "conversion_type": "anthropic"
 }
