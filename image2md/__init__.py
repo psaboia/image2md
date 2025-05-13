@@ -34,6 +34,12 @@ try:
 except ImportError:
     ANTHROPIC_AVAILABLE = False
 
+# Import Gemini converter conditionally
+try:
+    from .gemini_converter import GeminiConverter, GeminiProvenance, GEMINI_AVAILABLE
+except ImportError:
+    GEMINI_AVAILABLE = False
+
 # Simplified helper function
 def convert_image(
     image_path: Path,
@@ -92,6 +98,8 @@ __all__ = [
     'ProvenenanceInfo',
     'AnthropicConverter',
     'AnthropicProvenance',
+    'GeminiConverter',
+    'GeminiProvenance',
     'convert_image',
     'convert',
 ] 

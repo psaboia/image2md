@@ -27,6 +27,12 @@ try:
 except ImportError:
     ANTHROPIC_AVAILABLE = False
 
+# Import Gemini converter conditionally to handle case when Google GenerativeAI SDK is not installed
+try:
+    from .gemini_converter import GeminiConverter, GEMINI_AVAILABLE
+except ImportError:
+    GEMINI_AVAILABLE = False
+
 
 class Image2MarkdownFactory:
     """Factory for creating and managing image-to-markdown converters."""
@@ -49,13 +55,17 @@ class Image2MarkdownFactory:
     if ANTHROPIC_AVAILABLE:
         _converters["anthropic"] = AnthropicConverter
     
+    # Add Gemini converter if available
+    if GEMINI_AVAILABLE:
+        _converters["gemini"] = GeminiConverter
+    
     @classmethod
     def get_converter(cls, converter_type: str, **kwargs) -> Image2MarkdownConverter:
         """
         Get an instance of the specified converter type.
         
         Args:
-            converter_type: Type of converter ('ocr', 'vision', 'structure', 'azure', 'llm', or 'anthropic')
+            converter_type: Type of converter ('ocr', 'vision', 'structure', 'azure', 'llm', 'anthropic', or 'gemini')
             **kwargs: Additional parameters to pass to the converter constructor
             
         Returns:
@@ -86,6 +96,13 @@ class Image2MarkdownFactory:
             raise ImportError(
                 "Anthropic SDK is not installed. "
                 "Please install it with: pip install anthropic>=0.51.0"
+            )
+        
+        # Special handling for Gemini converter
+        if converter_type == "gemini" and not GEMINI_AVAILABLE:
+            raise ImportError(
+                "Google Generative AI SDK is not installed. "
+                "Please install it with: pip install google-generativeai>=0.3.0"
             )
         
         # Special handling for newer OpenAI models - pass max_tokens as max_completion_tokens

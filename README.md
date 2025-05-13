@@ -10,7 +10,7 @@ A Python library and command-line tool for converting images to well-formatted M
   - **Structure**: Structure-aware conversion with table, heading, and list detection
   - **Azure**: Integration with Azure Document Intelligence for high-quality document conversion
   - **LLM**: LLM-based conversion with provenance tracking using OpenAI models
-  - **Custom Extensions**: Support for custom converters (Claude, Gemini, etc.)
+  - **Custom Extensions**: Support for custom converters (Anthropic Claude, Google Gemini, etc.)
 
 ## Installation
 
@@ -21,7 +21,7 @@ pip install image2md
 # With Azure Document Intelligence support
 pip install image2md[azure]
 
-# For LLM and Claude extensions
+# For LLM and extensions
 pip install image2md[llm]
 
 ```
@@ -696,6 +696,77 @@ python claude_cli_wrapper.py \
 ```
 
 The wrapper script approach allows you to extend the CLI with custom converters without modifying the core code.
+
+### Gemini (Google) Integration
+
+You can also use Google's Gemini models for image-to-markdown conversion:
+
+1. Install the required dependencies:
+   ```bash
+   pip install google-generativeai>=0.3.0 image2md[llm]
+   ```
+
+2. Use the Gemini converter:
+   ```python
+   from pathlib import Path
+   import os
+   from dotenv import load_dotenv
+   from image2md.factory import Image2MarkdownFactory
+   
+   # Load environment variables
+   load_dotenv()
+   
+   # Get your Google API key
+   api_key = os.environ.get("GOOGLE_API_KEY")
+   if not api_key:
+       raise ValueError("GOOGLE_API_KEY environment variable is not set")
+   
+   # Use Gemini converter through the factory
+   result_path = Image2MarkdownFactory.convert(
+       Path("path/to/image.png"),
+       converter_type="gemini",
+       output_path=Path("result.md"),
+       api_key=api_key,
+       model="gemini-2.5-flash-preview-04-17",  # Default model
+       save_json=True,
+       json_output_path=Path("result.json"),
+       custom_prompt="Convert this image to well-formatted markdown."
+   )
+   
+   print(f"Conversion complete! Output saved to: {result_path}")
+   ```
+
+3. View available Gemini models:
+   ```python
+   # examples/list_gemini_models.py
+   import os
+   import sys
+   import argparse
+   from dotenv import load_dotenv
+   import google.generativeai as genai
+   
+   # Load environment variables
+   load_dotenv()
+   
+   # Configure Google AI client
+   api_key = os.environ.get("GOOGLE_API_KEY")
+   if not api_key:
+       raise ValueError("GOOGLE_API_KEY environment variable is not set")
+   
+   genai.configure(api_key=api_key)
+   
+   # List models
+   models = genai.list_models()
+   print("\nAvailable Gemini Models:")
+   for model in models:
+       if "gemini" in model.name:
+           print(f"Model: {model.name}")
+           print(f"Display Name: {model.display_name}")
+           print(f"Input Token Limit: {model.input_token_limit}")
+           print(f"Output Token Limit: {model.output_token_limit}")
+           print(f"Supported Generation Methods: {', '.join(model.supported_generation_methods)}")
+           print("-" * 70)
+   ```
 
 ## Contributing
 
