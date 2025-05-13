@@ -1,0 +1,24 @@
+{
+  "markdown": "```markdown\n# LOEWS CORPORATION\n667 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-2292 Fax (212) 935-6801\n\nBARRY HIRSCH\nSenior Vice President\nSecretary & General Counsel\n\n# FAX\n\n## CONFIDENTIAL\n\n**DATE:** June 4, 1997\n\n**TO:** Dr. Spears/A.J. Stevens/R. Milstein\n\n**FROM:** Barry Hirsch\n\n**TOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6**\n**IF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL**\n**CAROL DOKTORSKI AT (212) 545-2934.**\n\n**OUR FAX NUMBER IS (212) 935-6801.**\n\n---\n\n*THIS TRANSMISSION IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED, AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF YOU ARE NOT THE INTENDED RECIPIENT, OR THE EMPLOYEE OR AGENT RESPONSIBLE FOR DELIVERING THE MESSAGE TO THE INTENDED RECIPIENT, ANY DISSEMINATION, DISTRIBUTION OR COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED. IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, PLEASE NOTIFY US IMMEDIATELY BY TELEPHONE AND RETURN THE ORIGINAL MESSAGE TO US AT THE ABOVE ADDRESS VIA THE U.S. POSTAL SERVICE. THANK YOU.*\n```",
+  "provenance": {
+    "timestamp": "2025-05-07T12:22:55.650203",
+    "model": "claude-3-7-sonnet-20250219",
+    "model_version": "3.7 Sonnet",
+    "provider": "Anthropic",
+    "system_info": {
+      "os": "Linux",
+      "os_version": "#145~20.04.1-Ubuntu SMP Mon Feb 17 13:27:16 UTC 2025",
+      "python_version": "3.11.3",
+      "hostname": "area-52"
+    },
+    "conversion_params": {
+      "model": "claude-3-7-sonnet-20250219",
+      "max_tokens": 4000,
+      "temperature": 0.2,
+      "prompt": "\nConvert this image to well-formatted markdown with proper headings, lists, and tables.\nMaintain the document structure as much as possible.\nMake sure to preserve:\n1. Hierarchical structure with appropriate heading levels\n2. Any tabular data with proper markdown table formatting\n3. Text emphasis (bold, italics) when visually indicated\n4. Lists and bullet points\n"
+    }
+  },
+  "timestamp": "2025-05-07T12:22:55.650203",
+  "image_path": "/mnt/slow_data/TAI/Users/pmoreira/obsidian_import/examples/83635935.png",
+  "conversion_type": "claude_sonnet"
+}

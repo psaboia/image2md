@@ -1,0 +1,24 @@
+{
+  "markdown": "# Document Analysis by Gemini\n\n## Loews Corporation Fax Cover Sheet\n\n**From**: Barry Hirsch  \n**Title**: Senior Vice President, Secretary & General Counsel  \n**Company**: Loews Corporation  \n**Address**: 687 Madison Avenue, New York, NY 10021-8087  \n**Phone**: (212) 545-2920  \n**Fax**: (212) 935-6801  \n\n*Note: This is a simulation of Gemini's output for demonstration purposes.*\n",
+  "provenance": {
+    "timestamp": "2025-05-07T12:12:08.559044",
+    "model": "gemini-pro-vision",
+    "model_version": null,
+    "provider": "Google",
+    "system_info": {
+      "os": "Linux",
+      "os_version": "#145~20.04.1-Ubuntu SMP Mon Feb 17 13:27:16 UTC 2025",
+      "python_version": "3.11.3",
+      "hostname": "area-52"
+    },
+    "conversion_params": {
+      "model": "gemini-pro-vision",
+      "max_tokens": 2048,
+      "temperature": 0.3,
+      "prompt": "Extract all text from this image."
+    }
+  },
+  "timestamp": "2025-05-07T12:12:08.559044",
+  "image_path": "/mnt/slow_data/TAI/Users/pmoreira/obsidian_import/examples/83635935.png",
+  "conversion_type": "gemini"
+}

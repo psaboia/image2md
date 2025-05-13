@@ -1,0 +1,24 @@
+{
+  "markdown": "# Converted with Claude (claude-3-opus-20240229)\n\n## Image Analysis\nThis is a document from Loews Corporation, converted using the Claude model.\n\n## Document Content\n**Loews Corporation**\n687 Madison Avenue, New York, N.Y. 10021-8087\n(212) 545-2920 Fax (212) 935-6801\n\n**Barry Hirsch**\nSenior Vice President\nSecretary & General Counsel\n\n---\n\n*Note: This is a simulation of Claude's output for demonstration purposes.*\n",
+  "provenance": {
+    "timestamp": "2025-05-07T12:12:08.558700",
+    "model": "claude-3-opus-20240229",
+    "model_version": null,
+    "provider": "Anthropic",
+    "system_info": {
+      "os": "Linux",
+      "os_version": "#145~20.04.1-Ubuntu SMP Mon Feb 17 13:27:16 UTC 2025",
+      "python_version": "3.11.3",
+      "hostname": "area-52"
+    },
+    "conversion_params": {
+      "model": "claude-3-opus-20240229",
+      "max_tokens": 4000,
+      "temperature": 0.5,
+      "prompt": "Analyze this document in detail."
+    }
+  },
+  "timestamp": "2025-05-07T12:12:08.558700",
+  "image_path": "/mnt/slow_data/TAI/Users/pmoreira/obsidian_import/examples/83635935.png",
+  "conversion_type": "claude"
+}

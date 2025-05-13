@@ -1,0 +1,4528 @@
+{
+  "markdown": "<figure>\n\nJUN 05 '97 02:00PM LOEWS CORP LEGAL\n\n</figure>\n\n\n<!-- PageNumber=\"P.1/6\" -->\n\nLOEWS\nCORPORATION\n\n867 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-2920 Fax (212) 935-6801\n\nBARRY HIRSCH\nSenior Vice President\nSecretary & General Counsel\n\nFAX\n\nCONFIDENTIAL\n\n\n<table>\n<tr>\n<td>DATE:</td>\n<td>June 4, 1997</td>\n</tr>\n<tr>\n<td>TO:</td>\n<td>Dr. Spears/A.J. Stevens/R. Milstein</td>\n</tr>\n<tr>\n<td>FROM:</td>\n<td>Barry Hirsch</td>\n</tr>\n</table>\n\n\nTOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6\nIF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL\nCAROL DOKTORSKI AT (212) 545-2934.\n\nOUR FAX NUMBER IS (212) 935-6801.\n\nTHIS TRANSMISSION IG INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO KROM IT IS ADDRESSED, AND HAY\nCONTAIN INFORMATION THAT 16 PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF\nYOU ARE NOT THE INTENDED RECIPIENT, YOU ARE HARABY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR COPYING\nOF THIS COMMUNICATION IS STRICTLY PROHIBITED. IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, PLEASE\nNOTIFY US IMMEDIATELY BY TELEPHONE AND RETURN THE ORIGINAL MESSAGE TO UG AT THE ABOVE ADDRESS VIA THR U.S.\nPOSTAL SERVICE. THANK YOU.\n\n83635935\n",
+  "provenance": {
+    "timestamp": "2025-05-07T11:49:28.588011",
+    "model_id": "prebuilt-layout",
+    "api_version": "2024-11-30",
+    "system_info": {
+      "os": "Linux",
+      "os_version": "#145~20.04.1-Ubuntu SMP Mon Feb 17 13:27:16 UTC 2025",
+      "python_version": "3.11.3",
+      "hostname": "area-52"
+    },
+    "conversion_params": {
+      "model_id": "prebuilt-layout",
+      "api_version": "2024-11-30",
+      "endpoint": "https://funsd-layout.cognitiveservices.azure.com/***",
+      "features": [
+        "DocumentAnalysisFeature.KEY_VALUE_PAIRS",
+        "DocumentAnalysisFeature.LANGUAGES"
+      ]
+    }
+  },
+  "timestamp": "2025-05-07T11:49:32.329327",
+  "image_path": "/mnt/slow_data/TAI/Users/pmoreira/obsidian_import/examples/83635935.png",
+  "conversion_type": "azure",
+  "azure_result": {
+    "apiVersion": "2024-11-30",
+    "modelId": "prebuilt-layout",
+    "stringIndexType": "utf16CodeUnit",
+    "content": "<figure>\n\nJUN 05 '97 02:00PM LOEWS CORP LEGAL\n\n</figure>\n\n\n<!-- PageNumber=\"P.1/6\" -->\n\nLOEWS\nCORPORATION\n\n867 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-2920 Fax (212) 935-6801\n\nBARRY HIRSCH\nSenior Vice President\nSecretary & General Counsel\n\nFAX\n\nCONFIDENTIAL\n\n\n<table>\n<tr>\n<td>DATE:</td>\n<td>June 4, 1997</td>\n</tr>\n<tr>\n<td>TO:</td>\n<td>Dr. Spears/A.J. Stevens/R. Milstein</td>\n</tr>\n<tr>\n<td>FROM:</td>\n<td>Barry Hirsch</td>\n</tr>\n</table>\n\n\nTOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6\nIF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL\nCAROL DOKTORSKI AT (212) 545-2934.\n\nOUR FAX NUMBER IS (212) 935-6801.\n\nTHIS TRANSMISSION IG INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO KROM IT IS ADDRESSED, AND HAY\nCONTAIN INFORMATION THAT 16 PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF\nYOU ARE NOT THE INTENDED RECIPIENT, YOU ARE HARABY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR COPYING\nOF THIS COMMUNICATION IS STRICTLY PROHIBITED. IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, PLEASE\nNOTIFY US IMMEDIATELY BY TELEPHONE AND RETURN THE ORIGINAL MESSAGE TO UG AT THE ABOVE ADDRESS VIA THR U.S.\nPOSTAL SERVICE. THANK YOU.\n\n83635935\n",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0.0033542399760335684,
+        "width": 754,
+        "height": 1000,
+        "unit": "pixel",
+        "words": [
+          {
+            "content": "JUN",
+            "polygon": [
+              77,
+              73,
+              98,
+              74,
+              98,
+              86,
+              77,
+              85
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 10,
+              "length": 3
+            }
+          },
+          {
+            "content": "05",
+            "polygon": [
+              104,
+              74,
+              118,
+              74,
+              118,
+              86,
+              104,
+              86
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 14,
+              "length": 2
+            }
+          },
+          {
+            "content": "'97",
+            "polygon": [
+              125,
+              74,
+              143,
+              74,
+              143,
+              86,
+              125,
+              86
+            ],
+            "confidence": 0.934,
+            "span": {
+              "offset": 17,
+              "length": 3
+            }
+          },
+          {
+            "content": "02:00PM",
+            "polygon": [
+              155,
+              74,
+              201,
+              75,
+              201,
+              86,
+              155,
+              86
+            ],
+            "confidence": 0.958,
+            "span": {
+              "offset": 21,
+              "length": 7
+            }
+          },
+          {
+            "content": "LOEWS",
+            "polygon": [
+              206,
+              75,
+              238,
+              75,
+              238,
+              87,
+              206,
+              86
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 29,
+              "length": 5
+            }
+          },
+          {
+            "content": "CORP",
+            "polygon": [
+              244,
+              75,
+              271,
+              75,
+              271,
+              87,
+              244,
+              87
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 35,
+              "length": 4
+            }
+          },
+          {
+            "content": "LEGAL",
+            "polygon": [
+              276,
+              75,
+              310,
+              75,
+              310,
+              87,
+              276,
+              87
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 40,
+              "length": 5
+            }
+          },
+          {
+            "content": "P.1/6",
+            "polygon": [
+              578,
+              78,
+              613,
+              78,
+              613,
+              90,
+              578,
+              90
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 76,
+              "length": 5
+            }
+          },
+          {
+            "content": "LOEWS",
+            "polygon": [
+              311,
+              174,
+              378,
+              174,
+              378,
+              190,
+              311,
+              190
+            ],
+            "confidence": 0.981,
+            "span": {
+              "offset": 88,
+              "length": 5
+            }
+          },
+          {
+            "content": "CORPORATION",
+            "polygon": [
+              310,
+              188,
+              378,
+              188,
+              378,
+              198,
+              310,
+              198
+            ],
+            "confidence": 0.826,
+            "span": {
+              "offset": 94,
+              "length": 11
+            }
+          },
+          {
+            "content": "867",
+            "polygon": [
+              150,
+              204,
+              167,
+              204,
+              167,
+              216,
+              149,
+              216
+            ],
+            "confidence": 0.667,
+            "span": {
+              "offset": 107,
+              "length": 3
+            }
+          },
+          {
+            "content": "Madison",
+            "polygon": [
+              170,
+              204,
+              209,
+              204,
+              209,
+              216,
+              170,
+              216
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 111,
+              "length": 7
+            }
+          },
+          {
+            "content": "Avenue,",
+            "polygon": [
+              211,
+              204,
+              248,
+              204,
+              248,
+              216,
+              211,
+              216
+            ],
+            "confidence": 0.835,
+            "span": {
+              "offset": 119,
+              "length": 7
+            }
+          },
+          {
+            "content": "New",
+            "polygon": [
+              251,
+              204,
+              269,
+              204,
+              269,
+              216,
+              251,
+              216
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 127,
+              "length": 3
+            }
+          },
+          {
+            "content": "York,",
+            "polygon": [
+              273,
+              204,
+              296,
+              204,
+              296,
+              216,
+              273,
+              216
+            ],
+            "confidence": 0.974,
+            "span": {
+              "offset": 131,
+              "length": 5
+            }
+          },
+          {
+            "content": "N.Y.",
+            "polygon": [
+              299,
+              204,
+              316,
+              204,
+              316,
+              216,
+              299,
+              216
+            ],
+            "confidence": 0.9,
+            "span": {
+              "offset": 137,
+              "length": 4
+            }
+          },
+          {
+            "content": "10021-8087",
+            "polygon": [
+              320,
+              204,
+              373,
+              203,
+              373,
+              216,
+              319,
+              216
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 142,
+              "length": 10
+            }
+          },
+          {
+            "content": "(212)",
+            "polygon": [
+              376,
+              203,
+              398,
+              204,
+              398,
+              216,
+              375,
+              216
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 153,
+              "length": 5
+            }
+          },
+          {
+            "content": "545-2920",
+            "polygon": [
+              401,
+              204,
+              443,
+              203,
+              443,
+              216,
+              401,
+              216
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 159,
+              "length": 8
+            }
+          },
+          {
+            "content": "Fax",
+            "polygon": [
+              446,
+              203,
+              463,
+              203,
+              463,
+              216,
+              446,
+              216
+            ],
+            "confidence": 0.975,
+            "span": {
+              "offset": 168,
+              "length": 3
+            }
+          },
+          {
+            "content": "(212)",
+            "polygon": [
+              465,
+              203,
+              488,
+              203,
+              488,
+              216,
+              465,
+              216
+            ],
+            "confidence": 0.974,
+            "span": {
+              "offset": 172,
+              "length": 5
+            }
+          },
+          {
+            "content": "935-6801",
+            "polygon": [
+              491,
+              203,
+              535,
+              203,
+              535,
+              216,
+              491,
+              216
+            ],
+            "confidence": 0.956,
+            "span": {
+              "offset": 178,
+              "length": 8
+            }
+          },
+          {
+            "content": "BARRY",
+            "polygon": [
+              70,
+              266,
+              99,
+              266,
+              99,
+              276,
+              70,
+              276
+            ],
+            "confidence": 0.642,
+            "span": {
+              "offset": 188,
+              "length": 5
+            }
+          },
+          {
+            "content": "HIRSCH",
+            "polygon": [
+              101,
+              266,
+              138,
+              266,
+              138,
+              276,
+              101,
+              276
+            ],
+            "confidence": 0.912,
+            "span": {
+              "offset": 194,
+              "length": 6
+            }
+          },
+          {
+            "content": "Senior",
+            "polygon": [
+              71,
+              277,
+              95,
+              277,
+              95,
+              288,
+              71,
+              288
+            ],
+            "confidence": 0.69,
+            "span": {
+              "offset": 201,
+              "length": 6
+            }
+          },
+          {
+            "content": "Vice",
+            "polygon": [
+              97,
+              277,
+              115,
+              277,
+              115,
+              288,
+              97,
+              288
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 208,
+              "length": 4
+            }
+          },
+          {
+            "content": "President",
+            "polygon": [
+              117,
+              277,
+              157,
+              277,
+              157,
+              288,
+              117,
+              288
+            ],
+            "confidence": 0.819,
+            "span": {
+              "offset": 213,
+              "length": 9
+            }
+          },
+          {
+            "content": "Secretary",
+            "polygon": [
+              70,
+              289,
+              108,
+              289,
+              108,
+              300,
+              70,
+              300
+            ],
+            "confidence": 0.611,
+            "span": {
+              "offset": 223,
+              "length": 9
+            }
+          },
+          {
+            "content": "&",
+            "polygon": [
+              111,
+              289,
+              116,
+              289,
+              116,
+              300,
+              111,
+              300
+            ],
+            "confidence": 0.977,
+            "span": {
+              "offset": 233,
+              "length": 1
+            }
+          },
+          {
+            "content": "General",
+            "polygon": [
+              118,
+              289,
+              149,
+              289,
+              149,
+              300,
+              118,
+              300
+            ],
+            "confidence": 0.637,
+            "span": {
+              "offset": 235,
+              "length": 7
+            }
+          },
+          {
+            "content": "Counsel",
+            "polygon": [
+              152,
+              289,
+              186,
+              288,
+              186,
+              300,
+              152,
+              300
+            ],
+            "confidence": 0.567,
+            "span": {
+              "offset": 243,
+              "length": 7
+            }
+          },
+          {
+            "content": "FAX",
+            "polygon": [
+              334,
+              288,
+              365,
+              288,
+              365,
+              304,
+              334,
+              304
+            ],
+            "confidence": 0.263,
+            "span": {
+              "offset": 252,
+              "length": 3
+            }
+          },
+          {
+            "content": "CONFIDENTIAL",
+            "polygon": [
+              296,
+              320,
+              402,
+              320,
+              402,
+              334,
+              296,
+              334
+            ],
+            "confidence": 0.58,
+            "span": {
+              "offset": 257,
+              "length": 12
+            }
+          },
+          {
+            "content": "DATE:",
+            "polygon": [
+              86,
+              368,
+              131,
+              368,
+              131,
+              382,
+              86,
+              381
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 289,
+              "length": 5
+            }
+          },
+          {
+            "content": "June",
+            "polygon": [
+              167,
+              368,
+              193,
+              368,
+              193,
+              382,
+              167,
+              382
+            ],
+            "confidence": 0.623,
+            "span": {
+              "offset": 304,
+              "length": 4
+            }
+          },
+          {
+            "content": "4,",
+            "polygon": [
+              196,
+              368,
+              206,
+              368,
+              206,
+              382,
+              196,
+              382
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 309,
+              "length": 2
+            }
+          },
+          {
+            "content": "1997",
+            "polygon": [
+              210,
+              368,
+              238,
+              368,
+              238,
+              382,
+              210,
+              382
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 312,
+              "length": 4
+            }
+          },
+          {
+            "content": "TO:",
+            "polygon": [
+              89,
+              401,
+              115,
+              401,
+              115,
+              413,
+              89,
+              413
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 337,
+              "length": 3
+            }
+          },
+          {
+            "content": "Dr.",
+            "polygon": [
+              166,
+              400,
+              185,
+              400,
+              185,
+              415,
+              166,
+              415
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 350,
+              "length": 3
+            }
+          },
+          {
+            "content": "Spears/A.J.",
+            "polygon": [
+              189,
+              400,
+              250,
+              400,
+              250,
+              415,
+              189,
+              415
+            ],
+            "confidence": 0.974,
+            "span": {
+              "offset": 354,
+              "length": 11
+            }
+          },
+          {
+            "content": "Stevens/R.",
+            "polygon": [
+              253,
+              400,
+              310,
+              400,
+              310,
+              415,
+              253,
+              415
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 366,
+              "length": 10
+            }
+          },
+          {
+            "content": "Milstein",
+            "polygon": [
+              313,
+              400,
+              360,
+              399,
+              360,
+              415,
+              313,
+              415
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 377,
+              "length": 8
+            }
+          },
+          {
+            "content": "FROM:",
+            "polygon": [
+              86,
+              433,
+              134,
+              433,
+              134,
+              446,
+              86,
+              446
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 406,
+              "length": 5
+            }
+          },
+          {
+            "content": "Barry",
+            "polygon": [
+              167,
+              433,
+              198,
+              433,
+              198,
+              447,
+              167,
+              447
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 421,
+              "length": 5
+            }
+          },
+          {
+            "content": "Hirsch",
+            "polygon": [
+              201,
+              433,
+              239,
+              432,
+              239,
+              447,
+              201,
+              447
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 427,
+              "length": 6
+            }
+          },
+          {
+            "content": "TOTAL",
+            "polygon": [
+              86,
+              464,
+              132,
+              464,
+              132,
+              479,
+              86,
+              479
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 456,
+              "length": 5
+            }
+          },
+          {
+            "content": "NUMBER",
+            "polygon": [
+              136,
+              464,
+              194,
+              464,
+              194,
+              479,
+              136,
+              479
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 462,
+              "length": 6
+            }
+          },
+          {
+            "content": "OF",
+            "polygon": [
+              200,
+              464,
+              220,
+              464,
+              220,
+              479,
+              200,
+              479
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 469,
+              "length": 2
+            }
+          },
+          {
+            "content": "PAGES",
+            "polygon": [
+              223,
+              464,
+              268,
+              464,
+              268,
+              479,
+              223,
+              479
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 472,
+              "length": 5
+            }
+          },
+          {
+            "content": "INCLUDING",
+            "polygon": [
+              270,
+              464,
+              348,
+              464,
+              348,
+              479,
+              270,
+              479
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 478,
+              "length": 9
+            }
+          },
+          {
+            "content": "THIS",
+            "polygon": [
+              351,
+              464,
+              383,
+              464,
+              383,
+              479,
+              351,
+              479
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 488,
+              "length": 4
+            }
+          },
+          {
+            "content": "COVER",
+            "polygon": [
+              386,
+              464,
+              434,
+              464,
+              434,
+              478,
+              386,
+              479
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 493,
+              "length": 5
+            }
+          },
+          {
+            "content": "SHEET",
+            "polygon": [
+              437,
+              464,
+              480,
+              464,
+              480,
+              479,
+              437,
+              478
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 499,
+              "length": 5
+            }
+          },
+          {
+            "content": "-",
+            "polygon": [
+              483,
+              464,
+              489,
+              464,
+              489,
+              479,
+              483,
+              479
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 505,
+              "length": 1
+            }
+          },
+          {
+            "content": "6",
+            "polygon": [
+              492,
+              464,
+              501,
+              464,
+              501,
+              479,
+              492,
+              479
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 507,
+              "length": 1
+            }
+          },
+          {
+            "content": "IF",
+            "polygon": [
+              102,
+              480,
+              116,
+              480,
+              116,
+              495,
+              103,
+              495
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 509,
+              "length": 2
+            }
+          },
+          {
+            "content": "YOU",
+            "polygon": [
+              120,
+              480,
+              147,
+              480,
+              147,
+              495,
+              120,
+              495
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 512,
+              "length": 3
+            }
+          },
+          {
+            "content": "DO",
+            "polygon": [
+              152,
+              480,
+              174,
+              480,
+              174,
+              495,
+              152,
+              495
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 516,
+              "length": 2
+            }
+          },
+          {
+            "content": "NOT",
+            "polygon": [
+              177,
+              480,
+              206,
+              480,
+              206,
+              495,
+              177,
+              495
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 519,
+              "length": 3
+            }
+          },
+          {
+            "content": "RECEIVE",
+            "polygon": [
+              209,
+              480,
+              271,
+              480,
+              271,
+              495,
+              209,
+              495
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 523,
+              "length": 7
+            }
+          },
+          {
+            "content": "ALL",
+            "polygon": [
+              274,
+              480,
+              299,
+              480,
+              299,
+              495,
+              274,
+              495
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 531,
+              "length": 3
+            }
+          },
+          {
+            "content": "THE",
+            "polygon": [
+              306,
+              480,
+              333,
+              480,
+              333,
+              495,
+              306,
+              495
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 535,
+              "length": 3
+            }
+          },
+          {
+            "content": "PAGES,",
+            "polygon": [
+              336,
+              480,
+              384,
+              480,
+              384,
+              495,
+              336,
+              495
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 539,
+              "length": 6
+            }
+          },
+          {
+            "content": "PLEASE",
+            "polygon": [
+              387,
+              480,
+              438,
+              480,
+              438,
+              495,
+              387,
+              495
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 546,
+              "length": 6
+            }
+          },
+          {
+            "content": "CALL",
+            "polygon": [
+              442,
+              480,
+              480,
+              480,
+              480,
+              495,
+              442,
+              495
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 553,
+              "length": 4
+            }
+          },
+          {
+            "content": "CAROL",
+            "polygon": [
+              103,
+              496,
+              153,
+              496,
+              153,
+              510,
+              103,
+              510
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 558,
+              "length": 5
+            }
+          },
+          {
+            "content": "DOKTORSKI",
+            "polygon": [
+              155,
+              496,
+              239,
+              497,
+              239,
+              510,
+              155,
+              510
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 564,
+              "length": 9
+            }
+          },
+          {
+            "content": "AT",
+            "polygon": [
+              242,
+              497,
+              261,
+              497,
+              261,
+              510,
+              242,
+              510
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 574,
+              "length": 2
+            }
+          },
+          {
+            "content": "(212)",
+            "polygon": [
+              264,
+              497,
+              293,
+              497,
+              293,
+              511,
+              264,
+              510
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 577,
+              "length": 5
+            }
+          },
+          {
+            "content": "545-2934.",
+            "polygon": [
+              296,
+              497,
+              352,
+              496,
+              352,
+              510,
+              296,
+              511
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 583,
+              "length": 9
+            }
+          },
+          {
+            "content": "OUR",
+            "polygon": [
+              103,
+              527,
+              131,
+              528,
+              131,
+              542,
+              103,
+              542
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 594,
+              "length": 3
+            }
+          },
+          {
+            "content": "FAX",
+            "polygon": [
+              136,
+              528,
+              163,
+              528,
+              163,
+              542,
+              136,
+              542
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 598,
+              "length": 3
+            }
+          },
+          {
+            "content": "NUMBER",
+            "polygon": [
+              166,
+              528,
+              228,
+              528,
+              228,
+              543,
+              166,
+              542
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 602,
+              "length": 6
+            }
+          },
+          {
+            "content": "IS",
+            "polygon": [
+              231,
+              528,
+              244,
+              528,
+              244,
+              543,
+              231,
+              543
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 609,
+              "length": 2
+            }
+          },
+          {
+            "content": "(212)",
+            "polygon": [
+              248,
+              528,
+              276,
+              528,
+              276,
+              543,
+              247,
+              543
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 612,
+              "length": 5
+            }
+          },
+          {
+            "content": "935-6801.",
+            "polygon": [
+              279,
+              528,
+              335,
+              528,
+              335,
+              542,
+              279,
+              543
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 618,
+              "length": 9
+            }
+          },
+          {
+            "content": "THIS",
+            "polygon": [
+              86,
+              789,
+              106,
+              789,
+              106,
+              798,
+              86,
+              798
+            ],
+            "confidence": 0.913,
+            "span": {
+              "offset": 629,
+              "length": 4
+            }
+          },
+          {
+            "content": "TRANSMISSION",
+            "polygon": [
+              110,
+              789,
+              170,
+              789,
+              170,
+              798,
+              110,
+              798
+            ],
+            "confidence": 0.64,
+            "span": {
+              "offset": 634,
+              "length": 12
+            }
+          },
+          {
+            "content": "IG",
+            "polygon": [
+              174,
+              789,
+              184,
+              789,
+              184,
+              798,
+              174,
+              798
+            ],
+            "confidence": 0.954,
+            "span": {
+              "offset": 647,
+              "length": 2
+            }
+          },
+          {
+            "content": "INTENDED",
+            "polygon": [
+              189,
+              789,
+              228,
+              789,
+              228,
+              798,
+              189,
+              798
+            ],
+            "confidence": 0.644,
+            "span": {
+              "offset": 650,
+              "length": 8
+            }
+          },
+          {
+            "content": "ONLY",
+            "polygon": [
+              232,
+              789,
+              252,
+              789,
+              252,
+              798,
+              232,
+              798
+            ],
+            "confidence": 0.847,
+            "span": {
+              "offset": 659,
+              "length": 4
+            }
+          },
+          {
+            "content": "FOR",
+            "polygon": [
+              256,
+              789,
+              272,
+              789,
+              272,
+              798,
+              256,
+              798
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 664,
+              "length": 3
+            }
+          },
+          {
+            "content": "THE",
+            "polygon": [
+              275,
+              789,
+              290,
+              789,
+              290,
+              798,
+              275,
+              798
+            ],
+            "confidence": 0.674,
+            "span": {
+              "offset": 668,
+              "length": 3
+            }
+          },
+          {
+            "content": "USE",
+            "polygon": [
+              294,
+              789,
+              310,
+              789,
+              310,
+              798,
+              294,
+              798
+            ],
+            "confidence": 0.142,
+            "span": {
+              "offset": 672,
+              "length": 3
+            }
+          },
+          {
+            "content": "OF",
+            "polygon": [
+              313,
+              789,
+              324,
+              789,
+              324,
+              798,
+              313,
+              798
+            ],
+            "confidence": 0.54,
+            "span": {
+              "offset": 676,
+              "length": 2
+            }
+          },
+          {
+            "content": "THE",
+            "polygon": [
+              327,
+              789,
+              343,
+              789,
+              343,
+              798,
+              327,
+              798
+            ],
+            "confidence": 0.4,
+            "span": {
+              "offset": 679,
+              "length": 3
+            }
+          },
+          {
+            "content": "INDIVIDUAL",
+            "polygon": [
+              347,
+              789,
+              395,
+              789,
+              395,
+              798,
+              347,
+              798
+            ],
+            "confidence": 0.511,
+            "span": {
+              "offset": 683,
+              "length": 10
+            }
+          },
+          {
+            "content": "OR",
+            "polygon": [
+              399,
+              789,
+              409,
+              789,
+              409,
+              798,
+              399,
+              798
+            ],
+            "confidence": 0.255,
+            "span": {
+              "offset": 694,
+              "length": 2
+            }
+          },
+          {
+            "content": "ENTITY",
+            "polygon": [
+              413,
+              789,
+              443,
+              789,
+              443,
+              798,
+              413,
+              798
+            ],
+            "confidence": 0.829,
+            "span": {
+              "offset": 697,
+              "length": 6
+            }
+          },
+          {
+            "content": "TO",
+            "polygon": [
+              446,
+              789,
+              457,
+              789,
+              457,
+              798,
+              446,
+              798
+            ],
+            "confidence": 0.987,
+            "span": {
+              "offset": 704,
+              "length": 2
+            }
+          },
+          {
+            "content": "KROM",
+            "polygon": [
+              461,
+              789,
+              481,
+              789,
+              481,
+              798,
+              460,
+              798
+            ],
+            "confidence": 0.569,
+            "span": {
+              "offset": 707,
+              "length": 4
+            }
+          },
+          {
+            "content": "IT",
+            "polygon": [
+              485,
+              789,
+              495,
+              789,
+              495,
+              798,
+              485,
+              798
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 712,
+              "length": 2
+            }
+          },
+          {
+            "content": "IS",
+            "polygon": [
+              499,
+              789,
+              509,
+              789,
+              509,
+              798,
+              499,
+              798
+            ],
+            "confidence": 0.736,
+            "span": {
+              "offset": 715,
+              "length": 2
+            }
+          },
+          {
+            "content": "ADDRESSED,",
+            "polygon": [
+              513,
+              789,
+              561,
+              789,
+              561,
+              798,
+              513,
+              798
+            ],
+            "confidence": 0.442,
+            "span": {
+              "offset": 718,
+              "length": 10
+            }
+          },
+          {
+            "content": "AND",
+            "polygon": [
+              565,
+              789,
+              582,
+              789,
+              582,
+              799,
+              565,
+              798
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 729,
+              "length": 3
+            }
+          },
+          {
+            "content": "HAY",
+            "polygon": [
+              585,
+              789,
+              602,
+              789,
+              602,
+              799,
+              585,
+              799
+            ],
+            "confidence": 0.907,
+            "span": {
+              "offset": 733,
+              "length": 3
+            }
+          },
+          {
+            "content": "CONTAIN",
+            "polygon": [
+              86,
+              799,
+              122,
+              799,
+              122,
+              808,
+              86,
+              808
+            ],
+            "confidence": 0.61,
+            "span": {
+              "offset": 737,
+              "length": 7
+            }
+          },
+          {
+            "content": "INFORMATION",
+            "polygon": [
+              126,
+              799,
+              180,
+              798,
+              180,
+              807,
+              126,
+              808
+            ],
+            "confidence": 0.642,
+            "span": {
+              "offset": 745,
+              "length": 11
+            }
+          },
+          {
+            "content": "THAT",
+            "polygon": [
+              184,
+              798,
+              204,
+              798,
+              204,
+              807,
+              184,
+              807
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 757,
+              "length": 4
+            }
+          },
+          {
+            "content": "16",
+            "polygon": [
+              209,
+              798,
+              219,
+              798,
+              218,
+              807,
+              208,
+              807
+            ],
+            "confidence": 0.529,
+            "span": {
+              "offset": 762,
+              "length": 2
+            }
+          },
+          {
+            "content": "PRIVILEGED,",
+            "polygon": [
+              223,
+              798,
+              274,
+              798,
+              274,
+              807,
+              223,
+              807
+            ],
+            "confidence": 0.632,
+            "span": {
+              "offset": 765,
+              "length": 11
+            }
+          },
+          {
+            "content": "CONFIDENTIAL",
+            "polygon": [
+              280,
+              798,
+              339,
+              798,
+              339,
+              807,
+              280,
+              807
+            ],
+            "confidence": 0.31,
+            "span": {
+              "offset": 777,
+              "length": 12
+            }
+          },
+          {
+            "content": "AND",
+            "polygon": [
+              342,
+              798,
+              357,
+              798,
+              357,
+              807,
+              342,
+              807
+            ],
+            "confidence": 0.764,
+            "span": {
+              "offset": 790,
+              "length": 3
+            }
+          },
+          {
+            "content": "EXEMPT",
+            "polygon": [
+              361,
+              798,
+              391,
+              798,
+              391,
+              807,
+              361,
+              807
+            ],
+            "confidence": 0.368,
+            "span": {
+              "offset": 794,
+              "length": 6
+            }
+          },
+          {
+            "content": "FROM",
+            "polygon": [
+              394,
+              798,
+              415,
+              798,
+              414,
+              807,
+              394,
+              807
+            ],
+            "confidence": 0.654,
+            "span": {
+              "offset": 801,
+              "length": 4
+            }
+          },
+          {
+            "content": "DISCLOSURE",
+            "polygon": [
+              418,
+              798,
+              466,
+              798,
+              466,
+              807,
+              417,
+              807
+            ],
+            "confidence": 0.562,
+            "span": {
+              "offset": 806,
+              "length": 10
+            }
+          },
+          {
+            "content": "UNDER",
+            "polygon": [
+              470,
+              798,
+              495,
+              798,
+              495,
+              807,
+              470,
+              807
+            ],
+            "confidence": 0.711,
+            "span": {
+              "offset": 817,
+              "length": 5
+            }
+          },
+          {
+            "content": "APPLICABLE",
+            "polygon": [
+              499,
+              798,
+              548,
+              798,
+              547,
+              808,
+              499,
+              807
+            ],
+            "confidence": 0.64,
+            "span": {
+              "offset": 823,
+              "length": 10
+            }
+          },
+          {
+            "content": "LAW.",
+            "polygon": [
+              551,
+              798,
+              571,
+              799,
+              571,
+              808,
+              551,
+              808
+            ],
+            "confidence": 0.287,
+            "span": {
+              "offset": 834,
+              "length": 4
+            }
+          },
+          {
+            "content": "IF",
+            "polygon": [
+              581,
+              799,
+              593,
+              799,
+              593,
+              808,
+              581,
+              808
+            ],
+            "confidence": 0.747,
+            "span": {
+              "offset": 839,
+              "length": 2
+            }
+          },
+          {
+            "content": "YOU",
+            "polygon": [
+              86,
+              808,
+              102,
+              808,
+              102,
+              817,
+              86,
+              817
+            ],
+            "confidence": 0.677,
+            "span": {
+              "offset": 842,
+              "length": 3
+            }
+          },
+          {
+            "content": "ARE",
+            "polygon": [
+              105,
+              808,
+              122,
+              808,
+              122,
+              817,
+              105,
+              817
+            ],
+            "confidence": 0.646,
+            "span": {
+              "offset": 846,
+              "length": 3
+            }
+          },
+          {
+            "content": "NOT",
+            "polygon": [
+              125,
+              808,
+              141,
+              808,
+              141,
+              817,
+              125,
+              817
+            ],
+            "confidence": 0.567,
+            "span": {
+              "offset": 850,
+              "length": 3
+            }
+          },
+          {
+            "content": "THE",
+            "polygon": [
+              145,
+              808,
+              161,
+              808,
+              161,
+              817,
+              145,
+              817
+            ],
+            "confidence": 0.603,
+            "span": {
+              "offset": 854,
+              "length": 3
+            }
+          },
+          {
+            "content": "INTENDED",
+            "polygon": [
+              165,
+              808,
+              204,
+              808,
+              204,
+              817,
+              165,
+              817
+            ],
+            "confidence": 0.514,
+            "span": {
+              "offset": 858,
+              "length": 8
+            }
+          },
+          {
+            "content": "RECIPIENT,",
+            "polygon": [
+              208,
+              808,
+              256,
+              808,
+              256,
+              817,
+              208,
+              817
+            ],
+            "confidence": 0.833,
+            "span": {
+              "offset": 867,
+              "length": 10
+            }
+          },
+          {
+            "content": "YOU",
+            "polygon": [
+              261,
+              808,
+              277,
+              808,
+              277,
+              817,
+              261,
+              817
+            ],
+            "confidence": 0.975,
+            "span": {
+              "offset": 878,
+              "length": 3
+            }
+          },
+          {
+            "content": "ARE",
+            "polygon": [
+              280,
+              808,
+              295,
+              808,
+              295,
+              817,
+              280,
+              817
+            ],
+            "confidence": 0.957,
+            "span": {
+              "offset": 882,
+              "length": 3
+            }
+          },
+          {
+            "content": "HARABY",
+            "polygon": [
+              299,
+              808,
+              329,
+              808,
+              329,
+              817,
+              299,
+              817
+            ],
+            "confidence": 0.631,
+            "span": {
+              "offset": 886,
+              "length": 6
+            }
+          },
+          {
+            "content": "NOTIFIED",
+            "polygon": [
+              333,
+              808,
+              372,
+              808,
+              372,
+              817,
+              333,
+              817
+            ],
+            "confidence": 0.61,
+            "span": {
+              "offset": 893,
+              "length": 8
+            }
+          },
+          {
+            "content": "THAT",
+            "polygon": [
+              375,
+              808,
+              395,
+              808,
+              395,
+              817,
+              375,
+              817
+            ],
+            "confidence": 0.991,
+            "span": {
+              "offset": 902,
+              "length": 4
+            }
+          },
+          {
+            "content": "ANY",
+            "polygon": [
+              399,
+              808,
+              414,
+              808,
+              414,
+              817,
+              399,
+              817
+            ],
+            "confidence": 0.946,
+            "span": {
+              "offset": 907,
+              "length": 3
+            }
+          },
+          {
+            "content": "DISSEMINATION,",
+            "polygon": [
+              418,
+              808,
+              484,
+              808,
+              484,
+              817,
+              418,
+              817
+            ],
+            "confidence": 0.539,
+            "span": {
+              "offset": 911,
+              "length": 14
+            }
+          },
+          {
+            "content": "DISTRIBUTION",
+            "polygon": [
+              489,
+              808,
+              548,
+              808,
+              548,
+              817,
+              489,
+              817
+            ],
+            "confidence": 0.558,
+            "span": {
+              "offset": 926,
+              "length": 12
+            }
+          },
+          {
+            "content": "OR",
+            "polygon": [
+              552,
+              808,
+              563,
+              808,
+              563,
+              817,
+              552,
+              817
+            ],
+            "confidence": 0.883,
+            "span": {
+              "offset": 939,
+              "length": 2
+            }
+          },
+          {
+            "content": "COPYING",
+            "polygon": [
+              567,
+              808,
+              603,
+              808,
+              603,
+              817,
+              567,
+              817
+            ],
+            "confidence": 0.629,
+            "span": {
+              "offset": 942,
+              "length": 7
+            }
+          },
+          {
+            "content": "OF",
+            "polygon": [
+              86,
+              817,
+              97,
+              817,
+              97,
+              826,
+              86,
+              826
+            ],
+            "confidence": 0.944,
+            "span": {
+              "offset": 950,
+              "length": 2
+            }
+          },
+          {
+            "content": "THIS",
+            "polygon": [
+              101,
+              817,
+              121,
+              817,
+              121,
+              826,
+              101,
+              826
+            ],
+            "confidence": 0.883,
+            "span": {
+              "offset": 953,
+              "length": 4
+            }
+          },
+          {
+            "content": "COMMUNICATION",
+            "polygon": [
+              125,
+              817,
+              190,
+              817,
+              190,
+              826,
+              125,
+              826
+            ],
+            "confidence": 0.563,
+            "span": {
+              "offset": 958,
+              "length": 13
+            }
+          },
+          {
+            "content": "IS",
+            "polygon": [
+              194,
+              817,
+              204,
+              817,
+              204,
+              826,
+              194,
+              826
+            ],
+            "confidence": 0.161,
+            "span": {
+              "offset": 972,
+              "length": 2
+            }
+          },
+          {
+            "content": "STRICTLY",
+            "polygon": [
+              208,
+              817,
+              248,
+              817,
+              248,
+              826,
+              208,
+              826
+            ],
+            "confidence": 0.641,
+            "span": {
+              "offset": 975,
+              "length": 8
+            }
+          },
+          {
+            "content": "PROHIBITED.",
+            "polygon": [
+              252,
+              817,
+              304,
+              817,
+              304,
+              826,
+              252,
+              826
+            ],
+            "confidence": 0.609,
+            "span": {
+              "offset": 984,
+              "length": 11
+            }
+          },
+          {
+            "content": "IF",
+            "polygon": [
+              314,
+              817,
+              324,
+              817,
+              324,
+              826,
+              314,
+              826
+            ],
+            "confidence": 0.218,
+            "span": {
+              "offset": 996,
+              "length": 2
+            }
+          },
+          {
+            "content": "YOU",
+            "polygon": [
+              328,
+              817,
+              343,
+              817,
+              343,
+              826,
+              328,
+              826
+            ],
+            "confidence": 0.983,
+            "span": {
+              "offset": 999,
+              "length": 3
+            }
+          },
+          {
+            "content": "HAVE",
+            "polygon": [
+              347,
+              817,
+              366,
+              817,
+              366,
+              826,
+              347,
+              826
+            ],
+            "confidence": 0.394,
+            "span": {
+              "offset": 1003,
+              "length": 4
+            }
+          },
+          {
+            "content": "RECEIVED",
+            "polygon": [
+              370,
+              817,
+              409,
+              817,
+              409,
+              826,
+              370,
+              826
+            ],
+            "confidence": 0.198,
+            "span": {
+              "offset": 1008,
+              "length": 8
+            }
+          },
+          {
+            "content": "THIS",
+            "polygon": [
+              413,
+              817,
+              433,
+              817,
+              433,
+              826,
+              413,
+              826
+            ],
+            "confidence": 0.88,
+            "span": {
+              "offset": 1017,
+              "length": 4
+            }
+          },
+          {
+            "content": "COMMUNICATION",
+            "polygon": [
+              437,
+              817,
+              501,
+              817,
+              501,
+              826,
+              437,
+              826
+            ],
+            "confidence": 0.557,
+            "span": {
+              "offset": 1022,
+              "length": 13
+            }
+          },
+          {
+            "content": "IN",
+            "polygon": [
+              504,
+              817,
+              514,
+              817,
+              514,
+              826,
+              504,
+              826
+            ],
+            "confidence": 0.937,
+            "span": {
+              "offset": 1036,
+              "length": 2
+            }
+          },
+          {
+            "content": "ERROR,",
+            "polygon": [
+              518,
+              817,
+              546,
+              817,
+              546,
+              826,
+              518,
+              826
+            ],
+            "confidence": 0.421,
+            "span": {
+              "offset": 1039,
+              "length": 6
+            }
+          },
+          {
+            "content": "PLEASE",
+            "polygon": [
+              552,
+              817,
+              584,
+              817,
+              584,
+              826,
+              552,
+              826
+            ],
+            "confidence": 0.492,
+            "span": {
+              "offset": 1046,
+              "length": 6
+            }
+          },
+          {
+            "content": "NOTIFY",
+            "polygon": [
+              86,
+              827,
+              117,
+              827,
+              117,
+              836,
+              86,
+              835
+            ],
+            "confidence": 0.653,
+            "span": {
+              "offset": 1053,
+              "length": 6
+            }
+          },
+          {
+            "content": "US",
+            "polygon": [
+              120,
+              827,
+              131,
+              827,
+              131,
+              836,
+              120,
+              836
+            ],
+            "confidence": 0.956,
+            "span": {
+              "offset": 1060,
+              "length": 2
+            }
+          },
+          {
+            "content": "IMMEDIATELY",
+            "polygon": [
+              136,
+              827,
+              189,
+              827,
+              189,
+              836,
+              136,
+              836
+            ],
+            "confidence": 0.277,
+            "span": {
+              "offset": 1063,
+              "length": 11
+            }
+          },
+          {
+            "content": "BY",
+            "polygon": [
+              193,
+              827,
+              204,
+              827,
+              204,
+              836,
+              193,
+              836
+            ],
+            "confidence": 0.564,
+            "span": {
+              "offset": 1075,
+              "length": 2
+            }
+          },
+          {
+            "content": "TELEPHONE",
+            "polygon": [
+              208,
+              827,
+              252,
+              827,
+              252,
+              836,
+              208,
+              836
+            ],
+            "confidence": 0.51,
+            "span": {
+              "offset": 1078,
+              "length": 9
+            }
+          },
+          {
+            "content": "AND",
+            "polygon": [
+              256,
+              827,
+              271,
+              826,
+              271,
+              836,
+              256,
+              836
+            ],
+            "confidence": 0.555,
+            "span": {
+              "offset": 1088,
+              "length": 3
+            }
+          },
+          {
+            "content": "RETURN",
+            "polygon": [
+              275,
+              827,
+              305,
+              827,
+              305,
+              836,
+              275,
+              836
+            ],
+            "confidence": 0.588,
+            "span": {
+              "offset": 1092,
+              "length": 6
+            }
+          },
+          {
+            "content": "THE",
+            "polygon": [
+              308,
+              827,
+              324,
+              827,
+              324,
+              836,
+              308,
+              836
+            ],
+            "confidence": 0.27,
+            "span": {
+              "offset": 1099,
+              "length": 3
+            }
+          },
+          {
+            "content": "ORIGINAL",
+            "polygon": [
+              328,
+              827,
+              367,
+              827,
+              367,
+              836,
+              328,
+              836
+            ],
+            "confidence": 0.804,
+            "span": {
+              "offset": 1103,
+              "length": 8
+            }
+          },
+          {
+            "content": "MESSAGE",
+            "polygon": [
+              370,
+              827,
+              404,
+              827,
+              404,
+              836,
+              370,
+              836
+            ],
+            "confidence": 0.596,
+            "span": {
+              "offset": 1112,
+              "length": 7
+            }
+          },
+          {
+            "content": "TO",
+            "polygon": [
+              408,
+              827,
+              419,
+              827,
+              419,
+              836,
+              408,
+              836
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1120,
+              "length": 2
+            }
+          },
+          {
+            "content": "UG",
+            "polygon": [
+              422,
+              827,
+              433,
+              827,
+              433,
+              836,
+              422,
+              836
+            ],
+            "confidence": 0.125,
+            "span": {
+              "offset": 1123,
+              "length": 2
+            }
+          },
+          {
+            "content": "AT",
+            "polygon": [
+              436,
+              827,
+              448,
+              827,
+              448,
+              836,
+              436,
+              836
+            ],
+            "confidence": 0.96,
+            "span": {
+              "offset": 1126,
+              "length": 2
+            }
+          },
+          {
+            "content": "THE",
+            "polygon": [
+              451,
+              827,
+              467,
+              827,
+              467,
+              836,
+              451,
+              836
+            ],
+            "confidence": 0.988,
+            "span": {
+              "offset": 1129,
+              "length": 3
+            }
+          },
+          {
+            "content": "ABOVE",
+            "polygon": [
+              470,
+              827,
+              495,
+              827,
+              495,
+              836,
+              470,
+              836
+            ],
+            "confidence": 0.571,
+            "span": {
+              "offset": 1133,
+              "length": 5
+            }
+          },
+          {
+            "content": "ADDRESS",
+            "polygon": [
+              499,
+              827,
+              533,
+              827,
+              533,
+              836,
+              499,
+              836
+            ],
+            "confidence": 0.581,
+            "span": {
+              "offset": 1139,
+              "length": 7
+            }
+          },
+          {
+            "content": "VIA",
+            "polygon": [
+              537,
+              827,
+              553,
+              827,
+              553,
+              836,
+              537,
+              836
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 1147,
+              "length": 3
+            }
+          },
+          {
+            "content": "THR",
+            "polygon": [
+              557,
+              827,
+              572,
+              827,
+              572,
+              836,
+              557,
+              836
+            ],
+            "confidence": 0.631,
+            "span": {
+              "offset": 1151,
+              "length": 3
+            }
+          },
+          {
+            "content": "U.S.",
+            "polygon": [
+              576,
+              827,
+              596,
+              827,
+              596,
+              836,
+              576,
+              836
+            ],
+            "confidence": 0.73,
+            "span": {
+              "offset": 1155,
+              "length": 4
+            }
+          },
+          {
+            "content": "POSTAL",
+            "polygon": [
+              86,
+              836,
+              117,
+              836,
+              117,
+              845,
+              86,
+              845
+            ],
+            "confidence": 0.841,
+            "span": {
+              "offset": 1160,
+              "length": 6
+            }
+          },
+          {
+            "content": "SERVICE.",
+            "polygon": [
+              121,
+              836,
+              160,
+              836,
+              160,
+              845,
+              121,
+              845
+            ],
+            "confidence": 0.589,
+            "span": {
+              "offset": 1167,
+              "length": 8
+            }
+          },
+          {
+            "content": "THANK",
+            "polygon": [
+              164,
+              836,
+              190,
+              836,
+              190,
+              845,
+              164,
+              845
+            ],
+            "confidence": 0.55,
+            "span": {
+              "offset": 1176,
+              "length": 5
+            }
+          },
+          {
+            "content": "YOU.",
+            "polygon": [
+              193,
+              836,
+              214,
+              836,
+              214,
+              845,
+              193,
+              845
+            ],
+            "confidence": 0.655,
+            "span": {
+              "offset": 1182,
+              "length": 4
+            }
+          },
+          {
+            "content": "83635935",
+            "polygon": [
+              674,
+              797,
+              670,
+              899,
+              651,
+              899,
+              656,
+              796
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 1188,
+              "length": 8
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "JUN 05 '97 02:00PM LOEWS CORP LEGAL",
+            "polygon": [
+              77,
+              73,
+              309,
+              75,
+              309,
+              87,
+              77,
+              85
+            ],
+            "spans": [
+              {
+                "offset": 10,
+                "length": 35
+              }
+            ]
+          },
+          {
+            "content": "P.1/6",
+            "polygon": [
+              578,
+              78,
+              612,
+              78,
+              612,
+              90,
+              578,
+              90
+            ],
+            "spans": [
+              {
+                "offset": 76,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "LOEWS",
+            "polygon": [
+              311,
+              174,
+              377,
+              174,
+              377,
+              190,
+              311,
+              190
+            ],
+            "spans": [
+              {
+                "offset": 88,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "CORPORATION",
+            "polygon": [
+              310,
+              188,
+              377,
+              188,
+              377,
+              197,
+              310,
+              198
+            ],
+            "spans": [
+              {
+                "offset": 94,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "content": "867 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-2920 Fax (212) 935-6801",
+            "polygon": [
+              149,
+              204,
+              534,
+              203,
+              534,
+              216,
+              149,
+              216
+            ],
+            "spans": [
+              {
+                "offset": 107,
+                "length": 79
+              }
+            ]
+          },
+          {
+            "content": "BARRY HIRSCH",
+            "polygon": [
+              70,
+              266,
+              138,
+              266,
+              138,
+              276,
+              70,
+              276
+            ],
+            "spans": [
+              {
+                "offset": 188,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "Senior Vice President",
+            "polygon": [
+              71,
+              277,
+              157,
+              277,
+              157,
+              288,
+              71,
+              288
+            ],
+            "spans": [
+              {
+                "offset": 201,
+                "length": 21
+              }
+            ]
+          },
+          {
+            "content": "Secretary & General Counsel",
+            "polygon": [
+              70,
+              289,
+              186,
+              288,
+              186,
+              300,
+              70,
+              300
+            ],
+            "spans": [
+              {
+                "offset": 223,
+                "length": 27
+              }
+            ]
+          },
+          {
+            "content": "FAX",
+            "polygon": [
+              333,
+              288,
+              364,
+              288,
+              364,
+              304,
+              334,
+              304
+            ],
+            "spans": [
+              {
+                "offset": 252,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "CONFIDENTIAL",
+            "polygon": [
+              296,
+              320,
+              401,
+              320,
+              401,
+              334,
+              296,
+              334
+            ],
+            "spans": [
+              {
+                "offset": 257,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "DATE:",
+            "polygon": [
+              86,
+              368,
+              130,
+              368,
+              130,
+              381,
+              86,
+              381
+            ],
+            "spans": [
+              {
+                "offset": 289,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "June 4, 1997",
+            "polygon": [
+              167,
+              367,
+              237,
+              367,
+              237,
+              382,
+              167,
+              382
+            ],
+            "spans": [
+              {
+                "offset": 304,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "TO:",
+            "polygon": [
+              89,
+              401,
+              115,
+              401,
+              115,
+              413,
+              89,
+              413
+            ],
+            "spans": [
+              {
+                "offset": 337,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "Dr. Spears/A.J. Stevens/R. Milstein",
+            "polygon": [
+              166,
+              400,
+              360,
+              399,
+              360,
+              415,
+              166,
+              415
+            ],
+            "spans": [
+              {
+                "offset": 350,
+                "length": 35
+              }
+            ]
+          },
+          {
+            "content": "FROM:",
+            "polygon": [
+              86,
+              433,
+              134,
+              433,
+              134,
+              446,
+              86,
+              446
+            ],
+            "spans": [
+              {
+                "offset": 406,
+                "length": 5
+              }
+            ]
+          },
+          {
+            "content": "Barry Hirsch",
+            "polygon": [
+              167,
+              432,
+              239,
+              432,
+              239,
+              447,
+              167,
+              447
+            ],
+            "spans": [
+              {
+                "offset": 421,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "TOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6",
+            "polygon": [
+              86,
+              464,
+              501,
+              464,
+              501,
+              478,
+              86,
+              478
+            ],
+            "spans": [
+              {
+                "offset": 456,
+                "length": 52
+              }
+            ]
+          },
+          {
+            "content": "IF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL",
+            "polygon": [
+              102,
+              480,
+              480,
+              480,
+              480,
+              494,
+              102,
+              495
+            ],
+            "spans": [
+              {
+                "offset": 509,
+                "length": 48
+              }
+            ]
+          },
+          {
+            "content": "CAROL DOKTORSKI AT (212) 545-2934.",
+            "polygon": [
+              103,
+              496,
+              352,
+              496,
+              352,
+              510,
+              103,
+              510
+            ],
+            "spans": [
+              {
+                "offset": 558,
+                "length": 34
+              }
+            ]
+          },
+          {
+            "content": "OUR FAX NUMBER IS (212) 935-6801.",
+            "polygon": [
+              103,
+              527,
+              334,
+              528,
+              334,
+              543,
+              103,
+              542
+            ],
+            "spans": [
+              {
+                "offset": 594,
+                "length": 33
+              }
+            ]
+          },
+          {
+            "content": "THIS TRANSMISSION IG INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO KROM IT IS ADDRESSED, AND HAY",
+            "polygon": [
+              86,
+              788,
+              602,
+              789,
+              602,
+              799,
+              86,
+              798
+            ],
+            "spans": [
+              {
+                "offset": 629,
+                "length": 107
+              }
+            ]
+          },
+          {
+            "content": "CONTAIN INFORMATION THAT 16 PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF",
+            "polygon": [
+              86,
+              798,
+              593,
+              798,
+              593,
+              807,
+              86,
+              807
+            ],
+            "spans": [
+              {
+                "offset": 737,
+                "length": 104
+              }
+            ]
+          },
+          {
+            "content": "YOU ARE NOT THE INTENDED RECIPIENT, YOU ARE HARABY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR COPYING",
+            "polygon": [
+              86,
+              808,
+              603,
+              808,
+              603,
+              817,
+              86,
+              817
+            ],
+            "spans": [
+              {
+                "offset": 842,
+                "length": 107
+              }
+            ]
+          },
+          {
+            "content": "OF THIS COMMUNICATION IS STRICTLY PROHIBITED. IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, PLEASE",
+            "polygon": [
+              86,
+              817,
+              583,
+              817,
+              583,
+              826,
+              86,
+              826
+            ],
+            "spans": [
+              {
+                "offset": 950,
+                "length": 102
+              }
+            ]
+          },
+          {
+            "content": "NOTIFY US IMMEDIATELY BY TELEPHONE AND RETURN THE ORIGINAL MESSAGE TO UG AT THE ABOVE ADDRESS VIA THR U.S.",
+            "polygon": [
+              86,
+              826,
+              596,
+              827,
+              596,
+              836,
+              86,
+              836
+            ],
+            "spans": [
+              {
+                "offset": 1053,
+                "length": 106
+              }
+            ]
+          },
+          {
+            "content": "POSTAL SERVICE. THANK YOU.",
+            "polygon": [
+              86,
+              836,
+              214,
+              836,
+              214,
+              845,
+              86,
+              845
+            ],
+            "spans": [
+              {
+                "offset": 1160,
+                "length": 26
+              }
+            ]
+          },
+          {
+            "content": "83635935",
+            "polygon": [
+              675,
+              797,
+              670,
+              899,
+              651,
+              898,
+              656,
+              796
+            ],
+            "spans": [
+              {
+                "offset": 1188,
+                "length": 8
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 1197
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "rowCount": 3,
+        "columnCount": 2,
+        "cells": [
+          {
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "DATE:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  76,
+                  357,
+                  149,
+                  358,
+                  149,
+                  390,
+                  75,
+                  390
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 289,
+                "length": 5
+              }
+            ],
+            "elements": [
+              "/paragraphs/7"
+            ]
+          },
+          {
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "June 4, 1997",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  149,
+                  358,
+                  368,
+                  360,
+                  368,
+                  391,
+                  149,
+                  390
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 304,
+                "length": 12
+              }
+            ],
+            "elements": [
+              "/paragraphs/8"
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "TO:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  75,
+                  390,
+                  149,
+                  390,
+                  149,
+                  423,
+                  75,
+                  423
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 337,
+                "length": 3
+              }
+            ],
+            "elements": [
+              "/paragraphs/9"
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "Dr. Spears/A.J. Stevens/R. Milstein",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  149,
+                  390,
+                  368,
+                  391,
+                  368,
+                  423,
+                  149,
+                  423
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 350,
+                "length": 35
+              }
+            ],
+            "elements": [
+              "/paragraphs/10"
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 0,
+            "content": "FROM:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  75,
+                  423,
+                  149,
+                  423,
+                  149,
+                  454,
+                  75,
+                  455
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 406,
+                "length": 5
+              }
+            ],
+            "elements": [
+              "/paragraphs/11"
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 1,
+            "content": "Barry Hirsch",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  149,
+                  423,
+                  368,
+                  423,
+                  367,
+                  455,
+                  149,
+                  454
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 421,
+                "length": 12
+              }
+            ],
+            "elements": [
+              "/paragraphs/12"
+            ]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              83,
+              364,
+              365,
+              364,
+              365,
+              448,
+              83,
+              448
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 272,
+            "length": 181
+          }
+        ]
+      }
+    ],
+    "paragraphs": [
+      {
+        "spans": [
+          {
+            "offset": 10,
+            "length": 35
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              77,
+              73,
+              309,
+              75,
+              309,
+              87,
+              77,
+              85
+            ]
+          }
+        ],
+        "content": "JUN 05 '97 02:00PM LOEWS CORP LEGAL"
+      },
+      {
+        "spans": [
+          {
+            "offset": 59,
+            "length": 27
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              578,
+              78,
+              612,
+              78,
+              612,
+              90,
+              578,
+              90
+            ]
+          }
+        ],
+        "role": "pageNumber",
+        "content": "P.1/6"
+      },
+      {
+        "spans": [
+          {
+            "offset": 88,
+            "length": 17
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              310,
+              174,
+              377,
+              174,
+              377,
+              197,
+              310,
+              198
+            ]
+          }
+        ],
+        "content": "LOEWS CORPORATION"
+      },
+      {
+        "spans": [
+          {
+            "offset": 107,
+            "length": 79
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              149,
+              204,
+              534,
+              203,
+              534,
+              216,
+              149,
+              216
+            ]
+          }
+        ],
+        "content": "867 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-2920 Fax (212) 935-6801"
+      },
+      {
+        "spans": [
+          {
+            "offset": 188,
+            "length": 62
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              70,
+              266,
+              185,
+              266,
+              186,
+              300,
+              70,
+              300
+            ]
+          }
+        ],
+        "content": "BARRY HIRSCH Senior Vice President Secretary & General Counsel"
+      },
+      {
+        "spans": [
+          {
+            "offset": 252,
+            "length": 3
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              333,
+              288,
+              364,
+              288,
+              364,
+              304,
+              334,
+              304
+            ]
+          }
+        ],
+        "content": "FAX"
+      },
+      {
+        "spans": [
+          {
+            "offset": 257,
+            "length": 12
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              296,
+              320,
+              401,
+              320,
+              401,
+              334,
+              296,
+              334
+            ]
+          }
+        ],
+        "content": "CONFIDENTIAL"
+      },
+      {
+        "spans": [
+          {
+            "offset": 289,
+            "length": 5
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              76,
+              357,
+              149,
+              358,
+              149,
+              390,
+              75,
+              390
+            ]
+          }
+        ],
+        "content": "DATE:"
+      },
+      {
+        "spans": [
+          {
+            "offset": 304,
+            "length": 12
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              149,
+              358,
+              368,
+              360,
+              368,
+              391,
+              149,
+              390
+            ]
+          }
+        ],
+        "content": "June 4, 1997"
+      },
+      {
+        "spans": [
+          {
+            "offset": 337,
+            "length": 3
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              75,
+              390,
+              149,
+              390,
+              149,
+              423,
+              75,
+              423
+            ]
+          }
+        ],
+        "content": "TO:"
+      },
+      {
+        "spans": [
+          {
+            "offset": 350,
+            "length": 35
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              149,
+              390,
+              368,
+              391,
+              368,
+              423,
+              149,
+              423
+            ]
+          }
+        ],
+        "content": "Dr. Spears/A.J. Stevens/R. Milstein"
+      },
+      {
+        "spans": [
+          {
+            "offset": 406,
+            "length": 5
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              75,
+              423,
+              149,
+              423,
+              149,
+              454,
+              75,
+              455
+            ]
+          }
+        ],
+        "content": "FROM:"
+      },
+      {
+        "spans": [
+          {
+            "offset": 421,
+            "length": 12
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              149,
+              423,
+              368,
+              423,
+              367,
+              455,
+              149,
+              454
+            ]
+          }
+        ],
+        "content": "Barry Hirsch"
+      },
+      {
+        "spans": [
+          {
+            "offset": 456,
+            "length": 136
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              86,
+              464,
+              501,
+              464,
+              501,
+              510,
+              86,
+              510
+            ]
+          }
+        ],
+        "content": "TOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6 IF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL CAROL DOKTORSKI AT (212) 545-2934."
+      },
+      {
+        "spans": [
+          {
+            "offset": 594,
+            "length": 33
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              103,
+              527,
+              334,
+              528,
+              334,
+              543,
+              103,
+              542
+            ]
+          }
+        ],
+        "content": "OUR FAX NUMBER IS (212) 935-6801."
+      },
+      {
+        "spans": [
+          {
+            "offset": 629,
+            "length": 557
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              86,
+              788,
+              603,
+              789,
+              603,
+              846,
+              86,
+              845
+            ]
+          }
+        ],
+        "content": "THIS TRANSMISSION IG INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO KROM IT IS ADDRESSED, AND HAY CONTAIN INFORMATION THAT 16 PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF YOU ARE NOT THE INTENDED RECIPIENT, YOU ARE HARABY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED. IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, PLEASE NOTIFY US IMMEDIATELY BY TELEPHONE AND RETURN THE ORIGINAL MESSAGE TO UG AT THE ABOVE ADDRESS VIA THR U.S. POSTAL SERVICE. THANK YOU."
+      },
+      {
+        "spans": [
+          {
+            "offset": 1188,
+            "length": 8
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              656,
+              796,
+              675,
+              797,
+              670,
+              899,
+              651,
+              898
+            ]
+          }
+        ],
+        "content": "83635935"
+      }
+    ],
+    "keyValuePairs": [
+      {
+        "key": {
+          "content": "DATE:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                86,
+                368,
+                131,
+                368,
+                131,
+                382,
+                86,
+                381
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 289,
+              "length": 5
+            }
+          ]
+        },
+        "value": {
+          "content": "June 4, 1997",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                167,
+                368,
+                238,
+                368,
+                238,
+                382,
+                167,
+                383
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 304,
+              "length": 12
+            }
+          ]
+        },
+        "confidence": 0.95
+      },
+      {
+        "key": {
+          "content": "TO:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                89,
+                401,
+                116,
+                401,
+                115,
+                413,
+                89,
+                413
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 337,
+              "length": 3
+            }
+          ]
+        },
+        "value": {
+          "content": "Dr. Spears/A.J. Stevens/R. Milstein",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                166,
+                400,
+                360,
+                399,
+                360,
+                415,
+                166,
+                415
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 350,
+              "length": 35
+            }
+          ]
+        },
+        "confidence": 0.993
+      },
+      {
+        "key": {
+          "content": "FROM:\nFAX NUMBER",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                86,
+                433,
+                228,
+                433,
+                228,
+                543,
+                85,
+                542
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 406,
+              "length": 5
+            },
+            {
+              "offset": 598,
+              "length": 10
+            }
+          ]
+        },
+        "value": {
+          "content": "Barry Hirsch\n(212) 935-6801.",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                167,
+                432,
+                335,
+                432,
+                335,
+                543,
+                167,
+                543
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 421,
+              "length": 12
+            },
+            {
+              "offset": 612,
+              "length": 15
+            }
+          ]
+        },
+        "confidence": 0.945
+      }
+    ],
+    "languages": [
+      {
+        "spans": [
+          {
+            "offset": 10,
+            "length": 35
+          },
+          {
+            "offset": 289,
+            "length": 5
+          },
+          {
+            "offset": 842,
+            "length": 107
+          },
+          {
+            "offset": 1053,
+            "length": 106
+          }
+        ],
+        "locale": "en",
+        "confidence": 0.99
+      },
+      {
+        "spans": [
+          {
+            "offset": 76,
+            "length": 5
+          },
+          {
+            "offset": 201,
+            "length": 49
+          },
+          {
+            "offset": 252,
+            "length": 3
+          },
+          {
+            "offset": 337,
+            "length": 3
+          },
+          {
+            "offset": 737,
+            "length": 104
+          }
+        ],
+        "locale": "en",
+        "confidence": 0.95
+      },
+      {
+        "spans": [
+          {
+            "offset": 88,
+            "length": 5
+          }
+        ],
+        "locale": "to",
+        "confidence": 0.95
+      },
+      {
+        "spans": [
+          {
+            "offset": 94,
+            "length": 11
+          }
+        ],
+        "locale": "en",
+        "confidence": 0.2
+      },
+      {
+        "spans": [
+          {
+            "offset": 107,
+            "length": 79
+          }
+        ],
+        "locale": "en",
+        "confidence": 0.4
+      },
+      {
+        "spans": [
+          {
+            "offset": 188,
+            "length": 12
+          },
+          {
+            "offset": 421,
+            "length": 12
+          }
+        ],
+        "locale": "en",
+        "confidence": 0.6
+      },
+      {
+        "spans": [
+          {
+            "offset": 257,
+            "length": 12
+          }
+        ],
+        "locale": "en",
+        "confidence": 0.9
+      },
+      {
+        "spans": [
+          {
+            "offset": 304,
+            "length": 12
+          },
+          {
+            "offset": 406,
+            "length": 5
+          },
+          {
+            "offset": 456,
+            "length": 101
+          },
+          {
+            "offset": 629,
+            "length": 107
+          },
+          {
+            "offset": 950,
+            "length": 102
+          }
+        ],
+        "locale": "en",
+        "confidence": 1
+      },
+      {
+        "spans": [
+          {
+            "offset": 350,
+            "length": 35
+          }
+        ],
+        "locale": "en",
+        "confidence": 0.5
+      },
+      {
+        "spans": [
+          {
+            "offset": 558,
+            "length": 34
+          }
+        ],
+        "locale": "nn",
+        "confidence": 0.6
+      },
+      {
+        "spans": [
+          {
+            "offset": 594,
+            "length": 33
+          },
+          {
+            "offset": 1160,
+            "length": 26
+          }
+        ],
+        "locale": "en",
+        "confidence": 0.8
+      }
+    ],
+    "contentFormat": "markdown",
+    "sections": [
+      {
+        "spans": [
+          {
+            "offset": 0,
+            "length": 1196
+          }
+        ],
+        "elements": [
+          "/figures/0",
+          "/paragraphs/2",
+          "/paragraphs/3",
+          "/paragraphs/4",
+          "/paragraphs/5",
+          "/paragraphs/6",
+          "/tables/0",
+          "/paragraphs/13",
+          "/paragraphs/14",
+          "/paragraphs/15",
+          "/paragraphs/16"
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "id": "1.1",
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              150,
+              73,
+              309,
+              73,
+              309,
+              104,
+              149,
+              104
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 56
+          }
+        ],
+        "elements": [
+          "/paragraphs/0"
+        ]
+      }
+    ]
+  }
+}
