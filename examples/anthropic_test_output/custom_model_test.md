@@ -1,7 +1,7 @@
-Here is the image converted to brief markdown:
+Here is the image converted to very brief markdown:
 
 ```
-Jun 4 '97 02:30pm Loews Corp Legal F.1/6
+Jun 4 '97  02:38pm LOEWS CORP LEGAL  F.1/6
 
 LOEWS
 667 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-9220 Fax (212) 935-6801

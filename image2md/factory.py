@@ -21,6 +21,12 @@ try:
 except ImportError:
     LLM_AVAILABLE = False
 
+# Import Claude converter conditionally to handle case when Anthropic SDK is not installed
+try:
+    from .anthropic_converter import AnthropicConverter, ANTHROPIC_AVAILABLE
+except ImportError:
+    ANTHROPIC_AVAILABLE = False
+
 
 class Image2MarkdownFactory:
     """Factory for creating and managing image-to-markdown converters."""
@@ -39,13 +45,17 @@ class Image2MarkdownFactory:
     if LLM_AVAILABLE:
         _converters["llm"] = LLMConverter
     
+    # Add Claude converter if available
+    if ANTHROPIC_AVAILABLE:
+        _converters["anthropic"] = AnthropicConverter
+    
     @classmethod
     def get_converter(cls, converter_type: str, **kwargs) -> Image2MarkdownConverter:
         """
         Get an instance of the specified converter type.
         
         Args:
-            converter_type: Type of converter ('ocr', 'vision', 'structure', 'azure', or 'llm')
+            converter_type: Type of converter ('ocr', 'vision', 'structure', 'azure', 'llm', or 'anthropic')
             **kwargs: Additional parameters to pass to the converter constructor
             
         Returns:
@@ -70,6 +80,22 @@ class Image2MarkdownFactory:
                 "OpenAI SDK is not installed. "
                 "Please install it with: pip install openai>=1.0.0"
             )
+        
+        # Special handling for Claude converter
+        if converter_type == "anthropic" and not ANTHROPIC_AVAILABLE:
+            raise ImportError(
+                "Anthropic SDK is not installed. "
+                "Please install it with: pip install anthropic>=0.51.0"
+            )
+        
+        # Special handling for newer OpenAI models - pass max_tokens as max_completion_tokens
+        if converter_type == "llm" and "model" in kwargs:
+            model = kwargs.get("model")
+            if isinstance(model, str) and model.startswith("o4-"):
+                # If max_tokens is provided but max_completion_tokens is not, 
+                # use max_tokens value for max_completion_tokens
+                if "max_tokens" in kwargs and "max_completion_tokens" not in kwargs:
+                    kwargs["max_completion_tokens"] = kwargs.get("max_tokens")
         
         converter_class = cls._converters.get(converter_type)
         if not converter_class:

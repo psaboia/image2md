@@ -401,8 +401,8 @@ You can easily extend image2md with other LLM providers, such as Anthropic's Cla
    from datetime import datetime
    import platform
    
-   class ClaudeConverter(Image2MarkdownConverter):
-       """Claude-specific implementation for image-to-markdown conversion."""
+   class AnthropicConverter(Image2MarkdownConverter):
+       """Anthropic-specific implementation for image-to-markdown conversion."""
        
        DEFAULT_PROMPT = "Convert this image to well-formatted markdown."
        
@@ -519,15 +519,15 @@ You can easily extend image2md with other LLM providers, such as Anthropic's Cla
            return output_path
    ```
 
-3. Register the converter with the factory:
+3. Register Anthropic converter with the factory:
    ```python
-   # Register Claude converter with the factory
-   Image2MarkdownFactory.register_converter("claude", ClaudeConverter)
+   # Register Anthropic converter with the factory
+   Image2MarkdownFactory.register_converter("anthropic", AnthropicConverter)
    
    # Use the converter through the factory
    result_path = Image2MarkdownFactory.convert(
        Path("path/to/image.png"),
-       converter_type="claude",
+       converter_type="anthropic",
        output_path=Path("result.md"),
        api_key="your_anthropic_api_key",
        model="claude-3-7-sonnet-20250219",
@@ -569,7 +569,7 @@ A complete implementation example with tests is available in the `examples/` dir
 Comprehensive tests have been created to verify the Claude integration:
 
 ```python
-# examples/test_claude_converter.py
+# examples/test_anthropic_converter.py
 import unittest
 from pathlib import Path
 import json
@@ -580,10 +580,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from image2md.factory import Image2MarkdownFactory
-from claude_integration import ClaudeConverter
+from claude_integration import AnthropicConverter
 
-class TestClaudeConverter(unittest.TestCase):
-    """Test cases for the Claude converter."""
+class TestAnthropicConverter(unittest.TestCase):
+    """Test cases for the Anthropic converter."""
     
     @classmethod
     def setUpClass(cls):
@@ -594,13 +594,13 @@ class TestClaudeConverter(unittest.TestCase):
         cls.test_dir = Path(__file__).parent / "claude_test_output"
         cls.test_dir.mkdir(exist_ok=True)
         
-        # Register Claude converter with the factory
-        Image2MarkdownFactory.register_converter("claude", ClaudeConverter)
+        # Register Anthropic converter with the factory
+        Image2MarkdownFactory.register_converter("anthropic", AnthropicConverter)
     
     def test_convert_method(self):
         """Test the convert method."""
         # Initialize converter with small max_tokens to speed up test
-        converter = ClaudeConverter(api_key=self.api_key)
+        converter = AnthropicConverter(api_key=self.api_key)
         converter.max_tokens = 1000
         
         # Convert the image
@@ -623,10 +623,10 @@ Run the test with:
 
 ```bash
 # Run the standalone test
-python examples/test_claude_converter.py
+python examples/test_anthropic_converter.py
 
 # Or run as part of the test suite
-python -m pytest tests/test_claude_converter.py
+python -m pytest tests/test_anthropic_converter.py
 ```
 
 ### Comparing Specific Claude Models
@@ -665,8 +665,8 @@ from image2md.cli import main as image2md_cli
 from image2md.factory import Image2MarkdownFactory
 
 # Import and register your custom converter
-from claude_integration import ClaudeConverter
-Image2MarkdownFactory.register_converter("claude", ClaudeConverter)
+from claude_integration import AnthropicConverter
+Image2MarkdownFactory.register_converter("anthropic", AnthropicConverter)
 
 # Run the CLI with the original arguments
 if __name__ == "__main__":
@@ -680,11 +680,11 @@ Then use it like this:
 export ANTHROPIC_API_KEY="your-anthropic-api-key"
 
 # Basic usage with Claude model
-python claude_cli_wrapper.py path/to/image.png --type claude --output output.md
+python claude_cli_wrapper.py path/to/image.png --type anthropic --output output.md
 
 # With custom parameters and provenance tracking
 python claude_cli_wrapper.py \
-  --type claude \
+  --type anthropic \
   path/to/image.png \
   --output output.md \
   --claude-model "claude-3-7-sonnet-20250219" \
@@ -739,7 +739,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from image2md import LLMConverter
 from image2md.factory import Image2MarkdownFactory
-from claude_integration import ClaudeConverter
+from claude_integration import AnthropicConverter
 import json
 import difflib
 
@@ -750,8 +750,8 @@ load_dotenv()
 output_dir = Path("model_comparison")
 output_dir.mkdir(exist_ok=True)
 
-# Register Claude converter with the factory
-Image2MarkdownFactory.register_converter("claude", ClaudeConverter)
+# Register Anthropic converter with the factory
+Image2MarkdownFactory.register_converter("anthropic", AnthropicConverter)
 
 # Convert with OpenAI
 openai_result = Image2MarkdownFactory.convert(
@@ -768,7 +768,7 @@ openai_result = Image2MarkdownFactory.convert(
 # Convert with Claude
 claude_result = Image2MarkdownFactory.convert(
     Path("path/to/image.png"),
-    converter_type="claude",
+    converter_type="anthropic",
     output_path=output_dir / "claude_result.md",
     api_key=os.environ.get("ANTHROPIC_API_KEY"),
     model="claude-3-7-sonnet-20250219",
@@ -863,7 +863,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from image2md import LLMConverter
 from image2md.factory import Image2MarkdownFactory
-from claude_integration import ClaudeConverter
+from claude_integration import AnthropicConverter
 import json
 import difflib
 
@@ -874,8 +874,8 @@ load_dotenv()
 output_dir = Path("model_comparison")
 output_dir.mkdir(exist_ok=True)
 
-# Register Claude converter with the factory
-Image2MarkdownFactory.register_converter("claude", ClaudeConverter)
+# Register Anthropic converter with the factory
+Image2MarkdownFactory.register_converter("anthropic", AnthropicConverter)
 
 # Convert with OpenAI
 openai_result = Image2MarkdownFactory.convert(
@@ -892,7 +892,7 @@ openai_result = Image2MarkdownFactory.convert(
 # Convert with Claude
 claude_result = Image2MarkdownFactory.convert(
     Path("path/to/image.png"),
-    converter_type="claude",
+    converter_type="anthropic",
     output_path=output_dir / "claude_result.md",
     api_key=os.environ.get("ANTHROPIC_API_KEY"),
     model="claude-3-7-sonnet-20250219",

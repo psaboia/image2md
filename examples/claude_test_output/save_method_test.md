@@ -8,9 +8,9 @@
 **DATE:** June 4, 1997  
 **TO:** Dr. Spears/A.J. Stevens/R. Milstein  
 **FROM:** Barry Hirsch  
-**TOTAL PAGES:** 6 (including cover sheet)
+**TOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET:** 6
 
-If you do not receive all pages, please call Carol Doktorski at (212) 545-2934.
+IF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL CAROL DOKTORSKI AT (212) 545-2934.
 
 OUR FAX NUMBER IS (212) 935-6801.
 ```

@@ -28,6 +28,12 @@ try:
 except ImportError:
     LLM_AVAILABLE = False
 
+# Import Anthropic converter conditionally
+try:
+    from .anthropic_converter import AnthropicConverter, AnthropicProvenance, ANTHROPIC_AVAILABLE
+except ImportError:
+    ANTHROPIC_AVAILABLE = False
+
 # Simplified helper function
 def convert_image(
     image_path: Path,
@@ -84,6 +90,8 @@ __all__ = [
     'AzureDocumentConverter',
     'LLMConverter', 
     'ProvenenanceInfo',
+    'AnthropicConverter',
+    'AnthropicProvenance',
     'convert_image',
     'convert',
 ] 

@@ -1,7 +1,7 @@
 {
-  "markdown": "Here is the image converted to brief Markdown:\n\n```\nJun 4 '97 02:28pm Loews Corp Legal F.1/6\n\nLOEWS\n667 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-9220 Fax (212) 935-6801\n\nBARRY HIRSCH\nSenior Vice President\nSecretary & General Counsel\n\nFAX\nCONFIDENTIAL\n\nDATE: June 4, 1997\nTO: Dr. Spears/A.J. Stevens/R. Milstein\nFROM: Barry Hirsch\n\nTOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6\nIF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL\nCAROL DOKTORSKI AT (212) 545-9234.\n\nOUR FAX NUMBER IS (212) 935-6801.\n\nTHIS TRANSMISSION IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED, AND MAY\nCONTAIN INFORMATION THAT IS PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF\nYOU ARE NOT THE INTENDED RECIPIENT, YOU ARE HEREBY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION, OR COPYING\nOF THIS COMMUNICATION IS STRICTLY PROHIBITED. IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, PLEASE\nNOTIFY US IMMEDIATELY BY TELEPHONE AND RETURN THE ORIGINAL MESSAGE TO US AT THE ABOVE ADDRESS VIA THE\nPOSTAL SERVICE. THANK YOU.\n```",
+  "markdown": "Here is the image converted to brief markdown:\n\n```\nJun 4 '97 02:30pm Loews Corp Legal F.1/6\n\nLOEWS\n667 Madison Avenue, New York, N.Y. 10021-8087 (212) 545-9220 Fax (212) 935-6801\n\nBARRY HIRSCH\nSenior Vice President\nSecretary & General Counsel\n\nFAX\nCONFIDENTIAL\n\nDATE: June 4, 1997\nTO: Dr. Spears/A.J. Stevens/R. Milstein\nFROM: Barry Hirsch\n\nTOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET - 6\nIF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL\nCAROL DOKTORSKI AT (212) 545-9234.\n\nOUR FAX NUMBER IS (212) 935-6801.\n```",
   "provenance": {
-    "timestamp": "2025-05-07T12:42:56.084325",
+    "timestamp": "2025-05-13T09:44:43.082678",
     "model": "claude-3-haiku-20240307",
     "provider": "Anthropic",
     "system_info": {
@@ -17,7 +17,7 @@
       "prompt": "Convert this to very brief markdown."
     }
   },
-  "timestamp": "2025-05-07T12:42:56.084325",
-  "image_path": "/mnt/slow_data/TAI/Users/pmoreira/obsidian_import/examples/83635935.png",
+  "timestamp": "2025-05-13T09:44:43.082678",
+  "image_path": "/mnt/slow_data/TAI/Users/pmoreira/image2md/examples/83635935.png",
   "conversion_type": "claude"
 }

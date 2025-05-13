@@ -21,10 +21,10 @@ load_dotenv()
 try:
     from image2md.base import Image2MarkdownConverter
     from image2md.factory import Image2MarkdownFactory
-    from claude_integration import AnthropicConverter
+    from anthropic_integration import AnthropicConverter
 except ImportError as e:
     print(f"Error importing required modules: {e}")
-    print("Make sure the image2md package is installed and claude_integration.py is in the examples directory")
+    print("Make sure the image2md package is installed and anthropic_integration.py is in the examples directory")
     sys.exit(1)
 
 class TestAnthropicConverter(unittest.TestCase):
