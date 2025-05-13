@@ -45,7 +45,9 @@ class GeminiConverter(Image2MarkdownConverter):
     
     DEFAULT_PROMPT = (
         "Convert this image to well-formatted markdown. Maintain the structure "
-        "and formatting as much as possible, including headings, lists, and tables."
+        "and formatting as much as possible, including headings, lists, and tables. "
+        "Important: Do NOT wrap your response in markdown code blocks (```). "
+        "Just provide the clean markdown content directly without any surrounding backticks."
     )
     
     def __init__(
@@ -262,6 +264,12 @@ class GeminiConverter(Image2MarkdownConverter):
             # Extract the markdown content from the response
             markdown_content = response.text
             
+            # Post-process to remove triple backticks wrapping the markdown
+            if markdown_content.startswith("```markdown\n") and markdown_content.endswith("\n```"):
+                markdown_content = markdown_content[12:-4]  # Remove ```markdown and ```
+            elif markdown_content.startswith("```\n") and markdown_content.endswith("\n```"):
+                markdown_content = markdown_content[4:-4]  # Remove ``` and ```
+            
             # Save the full response with provenance as JSON if requested
             if save_json and json_output_path:
                 # Create provenance information
@@ -273,7 +281,8 @@ class GeminiConverter(Image2MarkdownConverter):
                     "model": self.model,
                     "provenance": provenance.as_dict(),
                     "response": {
-                        "text": markdown_content,
+                        "text": response.text,  # Original response with backticks
+                        "processed_text": markdown_content,  # Processed response without backticks
                         "candidates": [
                             {
                                 "content": {
