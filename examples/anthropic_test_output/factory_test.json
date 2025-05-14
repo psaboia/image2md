@@ -1,7 +1,7 @@
 {
-  "markdown": "```\n# LOEWS CORPORATION\n667 Madison Avenue, New York, NY, 10021-8087 (212) 545-2292 Fax (212) 935-6801\n\n## FAX\n**CONFIDENTIAL**\n\n**DATE:** June 4, 1997  \n**TO:** Dr. Spears/A.J. Stevens/R. Milstein  \n**FROM:** Barry Hirsch  \n**TOTAL NUMBER OF PAGES INCLUDING THIS COVER SHEET:** 6\n\nIF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL CAROL DOKTORSKI AT (212) 545-2934.\n\nOUR FAX NUMBER IS (212) 935-6801.\n```",
+  "markdown": "```\n# LOEWS CORPORATION\n667 Madison Avenue, New York, NY, 10021-8087 (212) 545-2292 Fax (212) 935-6801\n\n## FAX\n**CONFIDENTIAL**\n\n**DATE:** June 4, 1997  \n**TO:** Dr. Spears/A.J. Stevens/R. Milstein  \n**FROM:** Barry Hirsch  \n**TOTAL PAGES:** 6  \n\nIf you do not receive all pages, please call Carol Doktorski at (212) 545-2934.\n\nOUR FAX NUMBER IS (212) 935-6801.\n```",
   "provenance": {
-    "timestamp": "2025-05-13T10:47:41.566033",
+    "timestamp": "2025-05-13T17:00:40.866768",
     "model": "claude-3-7-sonnet-20250219",
     "provider": "Anthropic",
     "system_info": {
@@ -17,7 +17,7 @@
       "prompt": "Convert this to very brief markdown."
     }
   },
-  "timestamp": "2025-05-13T10:47:41.566033",
+  "timestamp": "2025-05-13T17:00:40.866768",
   "image_path": "/mnt/slow_data/TAI/Users/pmoreira/image2md/examples/83635935.png",
   "conversion_type": "anthropic"
 }
