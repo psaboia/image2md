@@ -50,6 +50,8 @@ class Image2MarkdownFactory:
     # Add LLM converter if available
     if LLM_AVAILABLE:
         _converters["llm"] = LLMConverter
+        # Add OpenAI as a dedicated converter type for consistency
+        _converters["openai"] = LLMConverter
     
     # Add Claude converter if available
     if ANTHROPIC_AVAILABLE:
@@ -65,7 +67,7 @@ class Image2MarkdownFactory:
         Get an instance of the specified converter type.
         
         Args:
-            converter_type: Type of converter ('ocr', 'vision', 'structure', 'azure', 'llm', 'anthropic', or 'gemini')
+            converter_type: Type of converter ('ocr', 'vision', 'structure', 'azure', 'llm', 'openai', 'anthropic', or 'gemini')
             **kwargs: Additional parameters to pass to the converter constructor
             
         Returns:
@@ -105,10 +107,22 @@ class Image2MarkdownFactory:
                 "Please install it with: pip install google-generativeai>=0.3.0"
             )
         
+        # Special handling for OpenAI converter type - automatically set provider
+        if converter_type == "openai":
+            kwargs.setdefault("provider", "openai")
+            # Handle newer OpenAI models token parameters
+            if "model" in kwargs:
+                model = kwargs.get("model")
+                if isinstance(model, str) and (model.startswith("o4-") or model.startswith("gpt-5")):
+                    # If max_tokens is provided but max_completion_tokens is not, 
+                    # use max_tokens value for max_completion_tokens
+                    if "max_tokens" in kwargs and "max_completion_tokens" not in kwargs:
+                        kwargs["max_completion_tokens"] = kwargs.get("max_tokens")
+        
         # Special handling for newer OpenAI models - pass max_tokens as max_completion_tokens
-        if converter_type == "llm" and "model" in kwargs:
+        elif converter_type == "llm" and "model" in kwargs:
             model = kwargs.get("model")
-            if isinstance(model, str) and model.startswith("o4-"):
+            if isinstance(model, str) and (model.startswith("o4-") or model.startswith("gpt-5")):
                 # If max_tokens is provided but max_completion_tokens is not, 
                 # use max_tokens value for max_completion_tokens
                 if "max_tokens" in kwargs and "max_completion_tokens" not in kwargs:

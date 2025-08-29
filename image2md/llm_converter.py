@@ -231,13 +231,12 @@ class LLMConverter(Image2MarkdownConverter):
             }
             
             # Choose the right token parameter based on model and handle special cases
-            if isinstance(self.model, str) and self.model.startswith("o4-"):
+            if isinstance(self.model, str) and (self.model.startswith("o4-") or self.model.startswith("gpt-5")):
                 # Newer models use max_completion_tokens and only support temperature=1.0
                 api_params["max_completion_tokens"] = kwargs.get("max_completion_tokens", 
                                                                self.max_completion_tokens or self.max_tokens)
-                # Only add temperature if it's 1.0 (the only supported value)
-                if kwargs.get("temperature", self.temperature) == 1.0:
-                    api_params["temperature"] = 1.0
+                # Both o4- and gpt-5 models only support temperature=1.0 (default)
+                # Don't set temperature parameter to use the default value
             else:
                 # Older models use max_tokens and support custom temperature
                 api_params["max_tokens"] = kwargs.get("max_tokens", self.max_tokens)
